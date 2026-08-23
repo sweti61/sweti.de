@@ -1,0 +1,48 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $size := .Get "size" | default "large" -}}
+
+{{- if not $src -}}
+  {{- errorf "Shortcode image: Parameter 'src' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- if not (in (slice "small" "medium" "large" "full") $size) -}}
+  {{- errorf "Shortcode image: Ungültige Größe '%s' in %s. Erlaubt: small, medium, large, full" $size .Page.File.Path -}}
+{{- end -}}
+
+{{- $image := .Page.Resources.GetMatch $src -}}
+
+{{- if not $image -}}
+  {{- errorf "Shortcode image: Bild '%s' wurde in %s nicht gefunden" $src .Page.File.Path -}}
+{{- end -}}
+
+{{- $sizes := "(max-width: 48rem) 100vw, 46rem" -}}
+
+{{- if eq $size "small" -}}
+  {{- $sizes = "(max-width: 30rem) 100vw, 20rem" -}}
+{{- else if eq $size "medium" -}}
+  {{- $sizes = "(max-width: 48rem) 100vw, 32rem" -}}
+{{- else if eq $size "large" -}}
+  {{- $sizes = "(max-width: 48rem) 100vw, 46rem" -}}
+{{- else if eq $size "full" -}}
+  {{- $sizes = "(max-width: 72rem) 100vw, 72rem" -}}
+{{- end -}}
+
+<figure class="content-image content-image--{{ $size }}">
+
+  {{ partial "responsive-image.html" (dict
+      "image" $image
+      "alt" $alt
+      "loading" "lazy"
+      "class" "content-image__picture"
+      "sizes" $sizes
+  ) }}
+
+  {{- with $caption }}
+    <figcaption class="content-image__caption">
+      {{ . }}
+    </figcaption>
+  {{- end }}
+
+</figure>

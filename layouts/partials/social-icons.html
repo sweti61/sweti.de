@@ -1,0 +1,40 @@
+{{- with site.Params.social -}}
+
+  <div class="social-icons">
+
+    {{- range . -}}
+
+      {{- if .url -}}
+
+        {{- $name := .name -}}
+        {{- $path := printf "icons/feather/%s.svg" $name -}}
+        {{- $icon := resources.Get $path -}}
+
+        {{- if $icon -}}
+
+          <a
+            class="social-icons__link"
+            href="{{ .url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="{{ $name }}">
+
+            <span class="social-icons__icon" aria-hidden="true">
+              {{- $icon.Content | safeHTML -}}
+            </span>
+
+          </a>
+
+        {{- else -}}
+
+          {{- warnf "Social Icon '%s' wurde unter %s nicht gefunden" $name $path -}}
+
+        {{- end -}}
+
+      {{- end -}}
+
+    {{- end -}}
+
+  </div>
+
+{{- end -}}

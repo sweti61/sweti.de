@@ -1,0 +1,60 @@
+{{- $title := site.Title -}}
+
+{{- if not .IsHome -}}
+  {{- $title = printf "%s | %s" .Title site.Title -}}
+{{- end -}}
+
+<title>{{ $title }}</title>
+
+{{- with .Description }}
+  <meta name="description" content="{{ . }}">
+{{- else }}
+  {{- with site.Params.description }}
+    <meta name="description" content="{{ . }}">
+  {{- end }}
+{{- end }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{- if not hugo.IsProduction }}
+  <meta name="robots" content="noindex, nofollow">
+
+{{- else if .Params.private }}
+  <meta name="robots" content="noindex, nofollow">
+
+{{- else if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+  <meta name="robots" content="noindex, nofollow">
+
+{{- else }}
+  <meta name="robots" content="index, follow">
+{{- end }}
+{{- $socialImage := "" -}}
+
+{{- with .Resources.GetMatch "hero.*" -}}
+  {{- $socialImage = .Permalink -}}
+{{- else -}}
+  {{- with site.Params.defaultSocialImage -}}
+    {{- $socialImage = printf "%s%s" site.BaseURL . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $socialImage }}
+  <meta property="og:image" content="{{ . }}">
+{{- end }}
+
+{{ partial "opengraph.html" . }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+
+{{- with .Description }}
+  <meta name="twitter:description" content="{{ . }}">
+{{- else }}
+  {{- with site.Params.description }}
+    <meta name="twitter:description" content="{{ . }}">
+  {{- end }}
+{{- end }}
+
+{{- with $socialImage }}
+  <meta name="twitter:image" content="{{ . }}">
+{{- end }}

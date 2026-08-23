@@ -1,0 +1,31 @@
+<section class="hero" aria-labelledby="page-title">
+
+  <div class="container">
+
+    <div class="hero__content">
+
+      <h1 id="page-title" class="hero__title">
+        {{ .Title }}
+      </h1>
+
+      {{ with .Resources.GetMatch "hero.*" }}
+
+        <div class="hero__image">
+
+			{{ partial "responsive-image.html" (dict
+				"image" .
+				"decorative" true
+				"loading" "eager"
+				"fetchpriority" "high"
+				"class" "hero__picture"
+				"sizes" "(max-width: 72rem) 100vw, 72rem"
+			) }}
+        </div>
+
+      {{ end }}
+
+    </div>
+
+  </div>
+
+</section>

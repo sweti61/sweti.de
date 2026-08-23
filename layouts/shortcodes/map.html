@@ -1,0 +1,25 @@
+{{- $q := .Get "q" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $height := .Get "height" | default "420" -}}
+{{- $apiKey := site.Params.googleMapsApiKey -}}
+
+{{- if not $q -}}
+  {{- errorf "Shortcode map: Parameter 'q' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- if not $apiKey -}}
+  {{- errorf "Shortcode map: googleMapsApiKey fehlt in config.toml" -}}
+{{- end -}}
+
+<div class="map-wrap">
+  <iframe
+    src="https://www.google.com/maps/embed/v1/place?key={{ $apiKey }}&q={{ $q | urlquery }}"
+    width="{{ $width }}"
+    height="{{ $height }}"
+    style="border:0;"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Google Maps: {{ $q }}">
+  </iframe>
+</div>

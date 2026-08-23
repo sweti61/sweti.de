@@ -1,0 +1,45 @@
+baseURL = "https://sweti.de/"
+languageCode = "de-de"
+defaultContentLanguage = "de"
+title = "Dr. Swetoslaw Beltschew"
+
+enableRobotsTXT = true
+
+googleMapsApiKey = "AIzaSyB-ExsHpwFOby3DWnnHx_0dE-V-u3M-HOE"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  description = "Mediation und Konfliktklärung für Privatpersonen."
+  googleSiteVerification = "ABC123XYZ..."
+  googleMapsApiKey = "AIzaSyB-ExsHpwFOby3DWnnHx_0dE-V-u3M-HOE"
+  defaultSocialImage = "images/og-default.jpg"
+
+[[menu.main]]
+  name = "Angebote"
+  url = "/angebote/"
+  weight = 10
+
+[[menu.main]]
+  name = "Aktuelles"
+  url = "/aktuelles/"
+  weight = 20
+
+[[menu.main]]
+  name = "Über mich"
+  url = "/ueber-mich/"
+  weight = 30
+
+[[menu.main]]
+  name = "Kontakt"
+  url = "/kontakt/"
+  weight = 40
+
+[[params.social]]
+  name = "youtube"
+  url = "https://www.youtube.com/@mediator-sweti"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/mediator-sweti/"

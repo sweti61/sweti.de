@@ -1,0 +1,36 @@
+<footer class="site-footer">
+
+  <div class="container">
+
+    <div class="site-footer__inner">
+
+      <nav
+        class="site-footer__nav"
+        aria-label="Fußnavigation">
+
+        <a href="/kontakt/">
+          Kontakt
+        </a>
+
+        <a href="/impressum/">
+          Impressum
+        </a>
+
+        <a href="/datenschutz/">
+          Datenschutz
+        </a>
+
+      </nav>
+
+		<div class="site-footer__social">
+		  {{ partial "social-icons.html" . }}
+		</div>
+      <p class="site-footer__copyright">
+        &copy; {{ now.Year }} {{ site.Title }}
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>	

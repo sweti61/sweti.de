@@ -1,0 +1,32 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $position := .Get "position" | default "left" -}}
+
+{{- if not $src -}}
+  {{- errorf "Shortcode image-text: Parameter 'src' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- $image := .Page.Resources.Get $src -}}
+
+{{- if not $image -}}
+  {{- errorf "Shortcode image-text: Bild '%s' wurde nicht gefunden" $src -}}
+{{- end -}}
+
+<section class="image-text image-text--{{ $position }}">
+
+  <div class="image-text__image">
+
+	{{ partial "responsive-image.html" (dict
+		"image" $image
+		"alt" $alt
+		"loading" "lazy"
+		"class" "image-text__picture"
+		"sizes" "(max-width: 48rem) 100vw, 50vw"
+	) }}
+  </div>
+
+  <div class="image-text__content">
+    {{ .Inner | markdownify }}
+  </div>
+
+</section>

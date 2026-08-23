@@ -1,0 +1,60 @@
+{{- $url := .Get "url" -}}
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" -}}
+
+{{- if not $url -}}
+  {{- errorf "Shortcode video: Parameter 'url' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- if not $src -}}
+  {{- errorf "Shortcode video: Parameter 'src' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- if not $title -}}
+  {{- errorf "Shortcode video: Parameter 'title' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- $image := .Page.Resources.GetMatch $src -}}
+
+{{- if not $image -}}
+  {{- errorf "Shortcode video: Bild '%s' wurde in %s nicht gefunden" $src .Page.File.Path -}}
+{{- end -}}
+
+<article class="video-card">
+
+  <a
+    class="video-card__link"
+    href="{{ $url }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="{{ $title }} auf YouTube ansehen">
+
+    <div class="video-card__image">
+
+      {{ partial "responsive-image.html" (dict
+          "image" $image
+          "decorative" true
+          "loading" "lazy"
+          "class" "video-card__picture"
+          "sizes" "(max-width: 48rem) 100vw, 46rem"
+      ) }}
+
+    </div>
+
+    <div class="video-card__body">
+
+      <h3 class="video-card__title">
+        {{ $title }}
+      </h3>
+
+      {{ with .Inner }}
+        <div class="video-card__description">
+          {{ . | markdownify }}
+        </div>
+      {{ end }}
+
+    </div>
+
+  </a>
+
+</article>

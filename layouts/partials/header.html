@@ -1,0 +1,52 @@
+<header class="site-header">
+  <div class="container">
+
+    <div class="site-header__bar">
+
+      <a
+        class="site-brand"
+        href="{{ site.Home.RelPermalink }}">
+        {{ site.Title }}
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-menu"
+        aria-label="Menü öffnen">
+
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+
+      </button>
+
+    </div>
+
+    <nav
+      id="site-menu"
+      class="site-menu"
+      aria-label="Hauptnavigation">
+
+      <ul class="site-menu__list">
+
+        {{ range site.Menus.main }}
+          <li class="site-menu__item">
+            <a
+              class="site-menu__link"
+              href="{{ .URL }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+
+      </ul>
+
+		<div class="site-menu__social">
+		  {{ partial "social-icons.html" . }}
+		</div>
+    </nav>
+
+  </div>
+</header>

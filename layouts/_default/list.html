@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+  {{ partial "hero.html" . }}
+
+  <main id="main" class="container">
+
+    {{ with .Content }}
+      <div class="prose">
+        {{ . }}
+      </div>
+    {{ end }}
+
+    {{ if .Pages }}
+
+      <div class="card-grid">
+
+        {{ range .Paginator.Pages }}
+
+          <article class="card">
+
+            <h2 class="card__title">
+              <a
+                class="card__title-link"
+                href="{{ .RelPermalink }}">
+                {{ .Title }}
+              </a>
+            </h2>
+
+            {{ with .Params.summary }}
+              <div class="card__content">
+                <p>{{ . }}</p>
+              </div>
+            {{ end }}
+
+          </article>
+
+        {{ end }}
+
+      </div>
+
+      {{ template "_internal/pagination.html" . }}
+
+    {{ end }}
+
+  </main>
+
+{{ end }}

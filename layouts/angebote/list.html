@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+  {{ partial "hero.html" . }}
+
+  <main id="main" class="container">
+
+    {{ with .Content }}
+      <div class="prose">
+        {{ . }}
+      </div>
+    {{ end }}
+
+    {{- $angebote := site.Taxonomies.tags.angebote.Pages -}}
+
+    {{ if $angebote }}
+
+		<div class="card-grid">
+
+		  {{ range $angebote.ByWeight }}
+
+			<article class="offer-card">
+
+			  <h2 class="offer-card__title">
+				<a
+				  class="offer-card__title-link"
+				  href="{{ .RelPermalink }}">
+				  {{ .Title }}
+				</a>
+			  </h2>
+
+			  {{ with .Params.summary }}
+				<p class="offer-card__summary">
+				  {{ . }}
+				</p>
+			  {{ end }}
+
+			  <a
+				class="offer-card__more"
+				href="{{ .RelPermalink }}"
+				aria-label="{{ .Title }}: Mehr erfahren">
+				Mehr erfahren
+			  </a>
+
+			</article>
+
+		  {{ end }}
+
+		</div>
+
+    {{ end }}
+
+  </main>
+
+{{ end }}

@@ -1,0 +1,16 @@
+{{- $name := .Get "name" -}}
+
+{{- if not $name -}}
+  {{- errorf "Shortcode icon: Parameter 'name' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- $path := printf "icons/feather/%s.svg" $name -}}
+{{- $icon := resources.Get $path -}}
+
+{{- if not $icon -}}
+  {{- errorf "Shortcode icon: Icon '%s' wurde nicht gefunden" $name -}}
+{{- end -}}
+
+<span class="icon" aria-hidden="true">
+  {{- $icon.Content | safeHTML -}}
+</span>

@@ -1,0 +1,22 @@
+{{- $url := .Get "url" -}}
+{{- $text := .Get "text" | default "Termin vereinbaren" -}}
+{{- $accent := .Get "accent" | default "blue" -}}
+
+{{- if not $url -}}
+  {{- errorf "Shortcode cta: Parameter 'url' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+<section class="cta cta--{{ $accent }}">
+
+  <div class="cta__content">
+    {{ .Inner | markdownify }}
+  </div>
+
+  <a class="cta__button"
+     href="{{ $url }}"
+     target="_blank"
+     rel="noopener noreferrer">
+    {{ $text }}
+  </a>
+
+</section>

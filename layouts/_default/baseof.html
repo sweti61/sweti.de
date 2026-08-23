@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">
+    Zum Inhalt springen
+  </a>
+
+  {{ partial "header.html" . }}
+
+  {{ block "main" . }}
+  {{ end }}
+
+  {{ partial "footer.html" . }}
+
+</body>
+
+</html>

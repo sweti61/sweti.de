@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+  <main id="main" class="container">
+
+    <section class="error-page">
+
+      <p class="error-page__code" aria-hidden="true">
+        404
+      </p>
+
+      <h1 class="error-page__title">
+        Seite nicht gefunden
+      </h1>
+
+      <p class="error-page__text">
+        Die aufgerufene Seite existiert nicht oder wurde verschoben.
+      </p>
+
+      <a
+        class="error-page__link"
+        href="{{ site.Home.RelPermalink }}">
+        Zur Startseite
+      </a>
+
+    </section>
+
+  </main>
+
+{{ end }}

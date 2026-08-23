@@ -1,0 +1,72 @@
+{{- $category := .Get "category" -}}
+{{- $date := .Get "date" -}}
+{{- $title := .Get "title" -}}
+
+{{- if not $category -}}
+  {{- errorf "Shortcode news-card: Parameter 'category' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- if not $date -}}
+  {{- errorf "Shortcode news-card: Parameter 'date' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- if not $title -}}
+  {{- errorf "Shortcode news-card: Parameter 'title' fehlt in %s" .Page.File.Path -}}
+{{- end -}}
+
+{{- $icon := "" -}}
+{{- $label := "" -}}
+
+{{- if eq $category "blog" -}}
+  {{- $icon = "file-text" -}}
+  {{- $label = "Neuer Blog" -}}
+{{- else if eq $category "event" -}}
+  {{- $icon = "calendar" -}}
+  {{- $label = "Event" -}}
+{{- else if eq $category "info" -}}
+  {{- $icon = "info" -}}
+  {{- $label = "Information" -}}
+{{- else -}}
+  {{- errorf "Shortcode news-card: Unbekannte Kategorie '%s' in %s" $category .Page.File.Path -}}
+{{- end -}}
+
+{{- $path := printf "icons/feather/%s.svg" $icon -}}
+{{- $iconResource := resources.Get $path -}}
+
+{{- if not $iconResource -}}
+  {{- errorf "Shortcode news-card: Icon '%s' wurde nicht gefunden" $path -}}
+{{- end -}}
+
+<article class="news-card">
+
+  <div class="news-card__category">
+
+    <span class="news-card__icon" aria-hidden="true">
+      {{- $iconResource.Content | safeHTML -}}
+    </span>
+
+    <span class="news-card__category-label">
+      {{ $label }}
+    </span>
+
+  </div>
+
+  <div class="news-card__content">
+
+    <time
+      class="news-card__date"
+      datetime="{{ $date }}">
+      {{ (time.AsTime $date).Format "02.01.2006" }}
+    </time>
+
+    <h2 class="news-card__title">
+      {{ $title }}
+    </h2>
+
+    <div class="news-card__text">
+      {{ .Inner  }}
+    </div>
+
+  </div>
+
+</article>

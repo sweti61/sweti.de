@@ -1,0 +1,39 @@
+{{- $title := .Get "title" -}}
+{{- $url := .Get "url" -}}
+{{- $icon := .Get "icon" -}}
+{{- $accent := .Get "accent" | default "blue" -}}
+{{- $titleSize := .Get "titleSize" | default "normal" -}}
+{{- $textSize := .Get "textSize" | default "normal" -}}
+
+<article class="card card--{{ $accent }} card--title-{{ $titleSize }} card--text-{{ $textSize }}">
+
+  <div class="card__header">
+
+    {{- with $icon }}
+      {{- $path := printf "icons/feather/%s.svg" . -}}
+      {{- with resources.Get $path }}
+        <div class="card__icon" aria-hidden="true">
+          {{ .Content | safeHTML }}
+        </div>
+      {{- end }}
+    {{- end }}
+
+    {{- with $title }}
+      <h3 class="card__title">
+        {{ . }}
+      </h3>
+    {{- end }}
+
+  </div>
+
+  <div class="card__content">
+    {{ .Inner | markdownify }}
+  </div>
+
+  {{- with $url }}
+    <a class="card__link" href="{{ . }}">
+      Mehr erfahren
+    </a>
+  {{- end }}
+
+</article>

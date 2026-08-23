@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1">
+
+{{ partial "seo.html" . }}
+
+{{ with site.Params.googleSiteVerification }}
+  <meta name="google-site-verification" content="{{ . }}">
+{{ end }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap">
+
+{{ $tachyons := resources.Get "css/tachyons.min.css" | fingerprint }}
+{{ $sweti := resources.Get "css/sweti.css" | minify | fingerprint }}
+
+<link rel="stylesheet"
+      href="{{ $tachyons.RelPermalink }}"
+      integrity="{{ $tachyons.Data.Integrity }}">
+
+<link rel="stylesheet"
+      href="{{ $sweti.RelPermalink }}"
+      integrity="{{ $sweti.Data.Integrity }}">
+	  
+{{ $menuJS := resources.Get "js/menu.js" | minify | fingerprint }}
+
+<script
+  src="{{ $menuJS.RelPermalink }}"
+  integrity="{{ $menuJS.Data.Integrity }}"
+  defer>
+</script>

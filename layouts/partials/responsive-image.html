@@ -1,0 +1,113 @@
+{{- $image := .image -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $sizes := .sizes | default "(max-width: 48rem) 100vw, (max-width: 72rem) 90vw, 1200px" -}}
+{{- $fetchpriority := .fetchpriority | default "" -}}
+
+{{- $loading := "lazy" -}}
+{{- with .loading -}}
+  {{- $loading = . -}}
+{{- end -}}
+
+{{- $decorative := false -}}
+{{- with .decorative -}}
+  {{- $decorative = true -}}
+{{- end -}}
+
+
+{{/* ------------------------------------------------
+     Prüfung
+     ------------------------------------------------ */}}
+
+{{- if not $image -}}
+  {{- errorf "responsive-image: Keine Bildressource übergeben" -}}
+{{- end -}}
+
+{{- if and (not $decorative) (not $alt) -}}
+  {{- errorf "responsive-image: Alt-Text fehlt für Bild '%s'" $image.Name -}}
+{{- end -}}
+
+{{- if $decorative -}}
+  {{- $alt = "" -}}
+{{- end -}}
+
+
+{{/* ------------------------------------------------
+     Größte Ausgabebreite
+
+     Bilder werden niemals hochskaliert.
+     Maximale Frontend-Breite: 1200 px.
+     ------------------------------------------------ */}}
+
+{{- $large := $image -}}
+
+{{- if gt $image.Width 1200 -}}
+  {{- $large = $image.Resize "1200x" -}}
+{{- end -}}
+
+
+{{/* ------------------------------------------------
+     Fallback für src
+
+     768 px, sofern das Original größer ist.
+     ------------------------------------------------ */}}
+
+{{- $fallback := $image -}}
+
+{{- if gt $image.Width 768 -}}
+  {{- $fallback = $image.Resize "768x" -}}
+{{- end -}}
+
+
+{{/* ------------------------------------------------
+     WebP für größten Kandidaten
+     ------------------------------------------------ */}}
+
+{{- $largeWebP := $image.Resize (printf "%dx webp q85" $large.Width) -}}
+
+
+<picture{{ with $class }} class="{{ . }}"{{ end }}>
+
+  <source
+    type="image/webp"
+    srcset="
+      {{- if gt $image.Width 480 -}}
+        {{- $smallWebP := $image.Resize "480x webp q85" -}}
+        {{ $smallWebP.RelPermalink }} 480w,
+      {{- end -}}
+
+      {{- if gt $image.Width 768 -}}
+        {{- $mediumWebP := $image.Resize "768x webp q85" -}}
+        {{ $mediumWebP.RelPermalink }} 768w,
+      {{- end -}}
+
+      {{ $largeWebP.RelPermalink }} {{ $largeWebP.Width }}w
+    "
+    sizes="{{ $sizes }}">
+
+  <img
+    src="{{ $fallback.RelPermalink }}"
+    srcset="
+      {{- if gt $image.Width 480 -}}
+        {{- $small := $image.Resize "480x" -}}
+        {{ $small.RelPermalink }} 480w,
+      {{- end -}}
+
+      {{- if gt $image.Width 768 -}}
+        {{- $medium := $image.Resize "768x" -}}
+        {{ $medium.RelPermalink }} 768w,
+      {{- end -}}
+
+      {{ $large.RelPermalink }} {{ $large.Width }}w
+    "
+    sizes="{{ $sizes }}"
+    width="{{ $fallback.Width }}"
+    height="{{ $fallback.Height }}"
+    alt="{{ $alt }}"
+    loading="{{ $loading }}"
+    decoding="async"
+    {{ with $fetchpriority -}}
+      fetchpriority="{{ . }}"
+    {{- end }}>
+
+</picture>
