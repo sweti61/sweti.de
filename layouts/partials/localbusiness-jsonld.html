@@ -1,0 +1,52 @@
+{{- $contact := site.Params.contact -}}
+{{- $business := site.Params.business -}}
+
+{{- $address := dict
+    "@type" "PostalAddress"
+    "streetAddress" $contact.street
+    "postalCode" $contact.postalCode
+    "addressLocality" $contact.city
+    "addressRegion" $contact.region
+    "addressCountry" $contact.country
+-}}
+
+{{- $areaServed := slice -}}
+
+{{- range $business.areaServed -}}
+  {{- $areaServed = $areaServed | append (dict
+      "@type" .type
+      "name" .name
+  ) -}}
+{{- end -}}
+
+{{- $sameAs := slice -}}
+
+{{- range site.Params.social -}}
+  {{- with .url -}}
+    {{- $sameAs = $sameAs | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $data := dict
+    "@context" "https://schema.org"
+    "@type" ($business.type | default "LocalBusiness")
+    "@id" (printf "%s#business" site.Home.Permalink)
+    "name" $contact.name
+    "description" site.Params.description
+    "url" site.Home.Permalink
+    "email" $contact.email
+    "telephone" $contact.phone
+    "address" $address
+    "areaServed" $areaServed
+    "sameAs" $sameAs
+-}}
+
+{{- with site.Params.defaultSocialImage -}}
+  {{- $data = merge $data (dict
+      "image" (. | absURL)
+  ) -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{{ $data | jsonify | safeJS }}
+</script>

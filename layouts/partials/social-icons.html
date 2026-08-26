@@ -11,13 +11,21 @@
         {{- $icon := resources.Get $path -}}
 
         {{- if $icon -}}
+		
+	{{- $label := $name -}}
+
+	{{- if eq $name "linkedin" -}}
+		{{- $label = "LinkedIn-Profil öffnen" -}}
+	{{- else if eq $name "youtube" -}}
+		{{- $label = "YouTube-Kanal öffnen" -}}
+	{{- end -}}
 
           <a
             class="social-icons__link"
             href="{{ .url }}"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="{{ $name }}">
+            aria-label="{{ $label }}">
 
             <span class="social-icons__icon" aria-hidden="true">
               {{- $icon.Content | safeHTML -}}

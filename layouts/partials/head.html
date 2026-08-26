@@ -5,6 +5,19 @@
 
 {{ partial "seo.html" . }}
 
+{{ partial "cookiehub.html" . }}
+
+{{ if or .IsHome (eq .RelPermalink "/kontakt/") }}
+  {{ partial "localbusiness-jsonld.html" . }}
+{{ end }}
+
+{{ partial "faq-jsonld.html" . }}
+
+{{ with site.Params.googleSiteVerification }}
+  <meta name="google-site-verification" content="{{ . }}">
+{{ end }}
+
+
 {{ with site.Params.googleSiteVerification }}
   <meta name="google-site-verification" content="{{ . }}">
 {{ end }}

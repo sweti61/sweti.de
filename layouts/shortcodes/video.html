@@ -36,20 +36,30 @@
           "decorative" true
           "loading" "lazy"
           "class" "video-card__picture"
-          "sizes" "(max-width: 48rem) 100vw, 46rem"
+          "sizes" "(max-width: 48rem) 100vw, 40vw"
       ) }}
 
     </div>
 
     <div class="video-card__body">
 
-      <h3 class="video-card__title">
-        {{ $title }}
-      </h3>
+      <div class="video-card__header">
+
+        <h3 class="video-card__title">
+          {{ $title }}
+        </h3>
+
+        {{- with resources.Get "icons/feather/film.svg" }}
+          <span class="video-card__icon" aria-hidden="true">
+            {{ .Content | safeHTML }}
+          </span>
+        {{- end }}
+
+      </div>
 
       {{ with .Inner }}
         <div class="video-card__description">
-          {{ . | markdownify }}
+          {{ . }}
         </div>
       {{ end }}
 

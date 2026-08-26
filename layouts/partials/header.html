@@ -3,12 +3,17 @@
 
     <div class="site-header__bar">
 
-      <a
-        class="site-brand"
-        href="{{ site.Home.RelPermalink }}">
-        {{ site.Title }}
-      </a>
+		<a class="site-brand" href="{{ site.Home.RelPermalink }}">
+		  {{- with resources.Get "icons/feather/home.svg" }}
+			<span class="site-brand__icon" aria-hidden="true">
+			  {{ .Content | safeHTML }}
+			</span>
+		  {{- end }}
 
+		  <span class="site-brand__text">
+			{{ site.Title }}
+		  </span>
+		</a>
       <button
         class="menu-toggle"
         type="button"

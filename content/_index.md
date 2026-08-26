@@ -1,162 +1,77 @@
 ---
-title: "Dr. Swetoslaw Beltschew - mediator sweti"
-description: "Mediation und Konfliktklärung für Privatpersonen."
+title: "Zurück ins Gespräch: Mediation in Dresden"
+description: "Mediation und Konfliktklärung in Dresden: Ich begleite Sie, wenn Gespräche in Familie, Nachbarschaft oder Beziehung ins Stocken geraten."
 ---
 
-Hier entsteht die neue Website **sweti.de**.
+*„Manchmal reicht ein gutes Gespräch. Manchmal braucht es jemanden, der es möglich macht."*
 
-Sie wird eine kleine, klare und leichtgewichtige Marketing-Website für Mediation und Konfliktklärung.
+[Gespräch vereinbaren](https://calendly.com/mediator-sweti) · [Wie das abläuft](#situation)
 
-## Was hier später entsteht
-
-Die Startseite wird als Einstieg und Verteiler zu wenigen, klar fokussierten Landingpages dienen.
-
-Im Mittelpunkt stehen:
-
-- Angebote
-- persönliche Vorstellung
-- ausgewählte Videos
-- Kontakt und Terminvereinbarung
-
-## Technische Basis
-
-Die Website basiert auf Hugo, Tachyons und einem eigenen, schlanken Template-System.
-
-Die Inhalte bleiben überwiegend in Markdown. Wiederverwendbare Marketing-Bausteine werden später über Shortcodes ergänzt.
-
-
-
-{{< image-text
-  src="portrait.png"
-  alt="Mediator im Dresden"
-  position="right"
->}}
-
-Wenn Gespräche nicht mehr möglich scheinen, braucht es einen geschützten Rahmen. Konflikte in der Familie – um Pflege, Erbe oder den eigenen Platz nach dem Berufsleben – entstehen selten plötzlich. Sie wachsen über Jahre, gespeist aus ungeklärten Rollen, unausgesprochenen Erwartungen und stiller Überforderung.
-{{< /image-text>}}
-
-In 35 Jahren in der öffentlichen Verwaltung Sachsens habe ich gelernt, mit komplexen Situationen ruhig umzugehen: viele Interessen, viele Beteiligte, klare Strukturen. Diese Erfahrung trägt heute meine Arbeit als Mediator. Distanz ist dabei keine Kühle – sondern die Voraussetzung, allen Beteiligten gerecht zu werden. Allparteilichkeit, wie sie das Mediationsgesetz vorgibt, ist für mich keine Methode, sondern eine über viele Jahre gewachsene Haltung.
-
-[Weitere Informationene über meine Arbeit als mediator im Dresden](https://mediator.sweti.de/mediator-dresden/)
-
-Meine Arbeit ruht auf drei Säulen:
 
 {{< card-grid >}}
 
 {{< card 
-	title="KLÄREN – Mediation" 
-	icon="message-circle" 
+	title="Familie & Beziehung"
+	url="https://mediator.sweti.de/angebote/beziehungs-und-familiengespraeche/"
+	icon="users" 
 	accent="blue" 
-	titleSize="small"
+	titleSize="normal"
     textSize="normal"
 >}}
-Wenn ein konkreter Konflikt zwischen Beteiligten festgefahren ist und ein moderierter Rahmen Bewegung ermöglicht.
+Wenn Gespräche zwischen Eltern und Kindern, unter Geschwistern oder in der Partnerschaft ins Stocken geraten.
 {{< /card >}}
 
 {{< card 
-	title="ENTWICKELN – Coaching" 
-	icon="compass" 
+	title="Pflege & Erbe"
+	url="https://mediator.sweti.de/angebote/mediation-bei-pflege-erbe-uebergang-dresden/"	
+	icon="heart" 
 	accent="green" 
-	titleSize="small"
+	titleSize="normal"
     textSize="normal"
 >}}
-Wenn eine einzelne Person Klarheit sucht in einer schwierigen Situation oder vor einem belastenden Gespräch.
+Wenn Pflege, Verantwortung oder eine Erbschaft alte Rollen und neue Spannungen sichtbar machen, auch als Elder Mediation.
 {{< /card >}}
 
-{{< card title="STRUKTURIEREN – Systemische Beratung"
-	icon="layers" 
+{{< card title="Nachbarschaft"
+	url="https://mediator.sweti.de/nachbarschaftskonflikt-mediation-dresden/"
+	icon="home" 
 	accent="orange"
 	titleSize="normal"
     textSize="normal"
 >}}
-Wenn ein Familien-, Pflege- oder Erbsystem als Ganzes neu geordnet werden muß. Methodisch arbeite ich systemisch und lösungs- und ressourcenorientiert. Das heißt: Ich suche nicht nach Schuld, sondern nach Mustern. Und ich frage nicht zuerst, was fehlt, sondern was bereits da ist und tragen kann.
+Wenn Streit mit Nachbarn den Alltag belastet und ein Gespräch allein nicht mehr weiterhilft.
 {{< /card >}}
 
 {{< /card-grid >}}
 
----
-## Typische Konflikt-Konstellationen, in denen ich begleite: {.f3 .fw4 .lh-title .mt4 .mb3}
+Jede dieser Situationen braucht einen eigenen Zugang. Manchmal hilft ein moderiertes Gespräch mit allen Beteiligten, manchmal zunächst ein Gespräch nur für sich selbst. Ich arbeite dafür wahlweise als Mediator, Konflikt-Coach oder systemischer Berater, je nachdem, was Ihre Situation braucht. [Wie sich das in der Praxis anfühlen kann](https://mediator.sweti.de/post/fall-zaun/), zeigt eine Fallgeschichte aus einem Nachbarschaftskonflikt.
+{#situation}
 
-In unterschiedlichen Lebenssituationen entstehen Konflikte auf ganz eigene Weise.
-
-{{< card
-  title="Mediation bei Pflegekonflikten und Erbstreit in Dresden"
-  icon="heart"
-  url="/angebote/pflege/"
-  accent="blue"
->}}
-Wenn Familien über Pflege, Heimunterbringung oder Erbfragen streiten, geht es selten nur um Organisation.  
-Es geht um Rollen, Erwartungen, alte Verletzungen und Gerechtigkeit.  
-Ich begleite Sie als Mediator, Konflikt-Coach oder systemischer Berater – je nachdem, was Ihre Situation braucht.
-{{< /card >}}
-
----
+{{< panel title="Dein Weg mit mir" icon="calendar" accent="orange" >}}
+1. Anruf oder E-Mail, ich melde mich zeitnah zurück
+2. Kostenloses Vorgespräch mit erster Einschätzung
+3. Mediation, Konflikt-Coaching oder systemische Beratung, je nach Situation
+4. Nachgespräch bei Bedarf
+{{< /panel >}}
 
 {{< card 
-	title="Nachbarschaftskonflikt in Dresden – Mediation statt Gericht" 
-	icon="home"
-    url="/angebote/pflege/"
+	title="Angebot 2026/2027" 
     accent="orange"
 >}}
-Streit mit dem Nachbarn über Lärm, Grundstücksgrenzen oder Gemeinschaftsflächen belastet den Alltag dauerhaft.  
-Als Mediator begleite ich beide Seiten – oder im Konflikt-Coaching auch nur eine Seite, wenn das Gespräch noch nicht möglich ist.
+Im Aufbau meiner Mediationspraxis biete ich 2026 und 2027 eine begrenzte Anzahl kostenfreier Mediationen und Konfliktberatungen für Familien und Nachbarschaften in Dresden an.
+
+Mehr zum Praxisaufbauprogramm 2026/2027 finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/praxisaufbau-mediation-dresden/).
 {{< /card >}}
 
-{{< card 
-	title="Familienmediation bei festgefahrenen Beziehungskonflikten" 
-	icon="users" 
-    accent="green"
->}}
-Manchmal geht es nicht um Pflege oder Erbe, sondern um das Gespräch selbst.  
-Ich begleite Familien dabei, wieder miteinander sprechen zu können – als Mediator gemeinsam mit allen Beteiligten, oder im Konflikt-Coaching mit Einzelpersonen.
+***
 
-- Spannungen zwischen Eltern und erwachsenen Kindern  
-- Geschwisterkonflikte  
-- Familienkonflikte mit erwachsenen Mitgliedern  
-- Kontaktabbrüche  
+**Bereit für den nächsten Schritt?**
+Vereinbaren Sie ein erstes, unverbindliches Gespräch. Wir klären gemeinsam, ob und wie ich Sie unterstützen kann.
 
-→ [Schwierige Gespräche in der Familie – Pillarseite]({{< relref "/angebote/">}})  
-→ [Beziehungs- und Familiengespräche]({{< relref "/angebote/">}})  
-→ [Familienkonflikt zwischen den Generationen – Mediation in Dresden]({{< relref "/angebote/">}})  
-{{< /card >}}
-
----
-
-
-## CTA
 {{< cta
   url="https://calendly.com/mediator-sweti"
-  text="Kennenlerngespräch vereinbaren"
+  text="Termin vereinbaren"
   accent="blue"
 >}}
-Sie möchten zunächst klären, ob mein Angebot zu Ihrer Situation passt?
+Sie erreichen mich auch direkt per E-Mail: [mediator@sweti.de](mailto:mediator@sweti.de)
 {{< /cta >}}
-
----
-
-## Video
-
-{{< video
-  url="https://www.youtube.com/watch?v=QMuHwelVo9Q"
-  src="video-mediation.png"
-  title="Was geschieht in einer Mediation?"
->}}
-
-Eine kurze Einführung in den Ablauf und die Arbeitsweise.
-
-{{< /video >}}
-
----
-
-## Testbild für Hugo Image Processing
-
-{{< image
-  src="testbild.png"
-  alt="Testbild für Hugo Image Processing"
->}}
-
-{{< icon name="calendar" >}} Kalendar
-
----
-
-

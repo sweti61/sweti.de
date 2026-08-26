@@ -4,27 +4,77 @@
 
     <div class="site-footer__inner">
 
-      <nav
-        class="site-footer__nav"
-        aria-label="Fußnavigation">
+      <div class="site-footer__top">
 
-        <a href="/kontakt/">
-          Kontakt
-        </a>
+        <div class="site-footer__left">
 
-        <a href="/impressum/">
-          Impressum
-        </a>
+          <nav
+            class="site-footer__nav"
+            aria-label="Fußnavigation">
 
-        <a href="/datenschutz/">
-          Datenschutz
-        </a>
+            <a href="/kontakt/">
+              Kontakt
+            </a>
 
-      </nav>
+            <a href="/impressum/">
+              Impressum
+            </a>
 
-		<div class="site-footer__social">
-		  {{ partial "social-icons.html" . }}
-		</div>
+            <a href="/datenschutz/">
+              Datenschutz
+            </a>
+
+          </nav>
+
+          <div class="site-footer__social">
+            {{ partial "social-icons.html" . }}
+          </div>
+
+        </div>
+
+        {{ with site.Params.contact }}
+
+          <div class="site-footer__contact">
+
+            {{ with .name }}
+              <strong class="site-footer__contact-name">
+                {{ . }}
+              </strong>
+            {{ end }}
+
+            {{ with .street }}
+              <div>
+                {{ . }}
+              </div>
+            {{ end }}
+
+            <div>
+              {{ with .postalCode }}{{ . }} {{ end }}
+              {{ with .city }}{{ . }}{{ end }}
+            </div>
+
+            {{ with .phone }}
+              <div>
+                <a href="tel:{{ . }}">
+                  {{ . }}
+                </a>
+              </div>
+            {{ end }}
+
+            {{ with .email }}
+              <div>
+                <a href="mailto:{{ . }}">
+                  {{ . }}
+                </a>
+              </div>
+            {{ end }}
+
+          </div>
+
+        {{ end }}
+
+      </div>
+
       <p class="site-footer__copyright">
         &copy; {{ now.Year }} {{ site.Title }}
       </p>
@@ -33,4 +83,4 @@
 
   </div>
 
-</footer>	
+</footer>

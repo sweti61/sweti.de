@@ -1,11 +1,10 @@
 baseURL = "https://sweti.de/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
-title = "Dr. Swetoslaw Beltschew"
+title = "Dr. Beltschew"
 
 enableRobotsTXT = true
 
-googleMapsApiKey = "AIzaSyB-ExsHpwFOby3DWnnHx_0dE-V-u3M-HOE"
 
 [taxonomies]
   tag = "tags"
@@ -20,6 +19,11 @@ googleMapsApiKey = "AIzaSyB-ExsHpwFOby3DWnnHx_0dE-V-u3M-HOE"
   name = "Angebote"
   url = "/angebote/"
   weight = 10
+
+[[menu.main]]
+  name = "Häufige Fragen"
+  url = "/haeufige-fragen/"
+  weight = 15
 
 [[menu.main]]
   name = "Aktuelles"
@@ -43,3 +47,31 @@ googleMapsApiKey = "AIzaSyB-ExsHpwFOby3DWnnHx_0dE-V-u3M-HOE"
 [[params.social]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/mediator-sweti/"
+  
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+		
+[params.contact]
+  name = "Dr. Swetoslaw Beltschew"
+  email = "mediator@sweti.de"
+  phone = "+49 163 803 5634"
+  street = "Bünaustraße 52"
+  postalCode = "01159"
+  city = "Dresden"
+  region = "Sachsen"
+  country = "DE"
+
+[params.business]
+  type = "ProfessionalService"
+
+[[params.business.areaServed]]
+  type = "City"
+  name = "Dresden"
+
+[[params.business.areaServed]]
+  type = "State"
+  name = "Sachsen"
