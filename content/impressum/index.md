@@ -12,7 +12,7 @@ sitemap:
 Angaben gemäß § 5 TMG:
 
 Swetoslaw Beltschew  
-Bünaustr. 52   
+Bünaustraße 52   
 01159 Dresden   
 Deutschland   
 
@@ -25,7 +25,7 @@ Webseite: [https://sweti.de](https://sweti.de)
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
 Swetoslaw Beltschew   
-Bünaustr. 52   
+Bünaustraße 52   
 01159 Dresden   
 
 ### Berufsbezeichnung und Aufsichtsbehörde

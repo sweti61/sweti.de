@@ -18,7 +18,7 @@ Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarb
 ### Verantwortlicher
 
 Name: Swetoslaw Beltschew    
-Anschrift: Bünaustr. 52, 01159 Dresden   
+Anschrift: Bünaustraße 52, 01159 Dresden   
 E-Mail: [mediator@sweti.de](mailto:mediator@sweti.de)   
 Telefon: 0163 803 5634   
 

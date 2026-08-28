@@ -47,7 +47,7 @@ Wenn Streit mit Nachbarn den Alltag belastet und ein Gespräch allein nicht mehr
 Jede dieser Situationen braucht einen eigenen Zugang. Manchmal hilft ein moderiertes Gespräch mit allen Beteiligten, manchmal zunächst ein Gespräch nur für sich selbst. Ich arbeite dafür wahlweise als Mediator, Konflikt-Coach oder systemischer Berater, je nachdem, was Ihre Situation braucht. [Wie sich das in der Praxis anfühlen kann](https://mediator.sweti.de/post/fall-zaun/), zeigt eine Fallgeschichte aus einem Nachbarschaftskonflikt.
 {#situation}
 
-{{< panel title="Dein Weg mit mir" icon="calendar" accent="orange" >}}
+{{< panel title="So läuft es ab" icon="calendar" accent="orange" >}}
 1. Anruf oder E-Mail, ich melde mich zeitnah zurück
 2. Kostenloses Vorgespräch mit erster Einschätzung
 3. Mediation, Konflikt-Coaching oder systemische Beratung, je nach Situation
@@ -69,7 +69,6 @@ Mehr zum Praxisaufbauprogramm 2026/2027 finden Sie auf [mediator.sweti.de](https
 Vereinbaren Sie ein erstes, unverbindliches Gespräch. Wir klären gemeinsam, ob und wie ich Sie unterstützen kann.
 
 {{< cta
-  url="https://calendly.com/mediator-sweti"
   text="Termin vereinbaren"
   accent="blue"
 >}}

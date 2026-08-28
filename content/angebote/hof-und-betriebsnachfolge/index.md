@@ -8,6 +8,8 @@ tags:
   - angebote
   - mediation
 weight: 40
+
+after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/mediation-hofnachfolge-landwirtschaft-sachsen/)."
 ---
 
 {{< image-text
@@ -56,14 +58,4 @@ Ich arbeite vor allem in Dresden und im sächsischen Umland, insbesondere in Ric
 
 Wenn Sie merken, dass Gespräche über die Zukunft Ihres Betriebs immer wieder feststecken, muss nicht gleich die ganze Familie einverstanden sein. Oft beginnt der erste Schritt damit, dass eine Person allein die eigene Situation sortiert.
 
-{{< cta
-  url="https://calendly.com/mediator-sweti"
-  text="Kostenfreies Gespräch vereinbaren"
-  accent="blue"
->}}
 
-In einem ersten, unverbindlichen Gespräch klären wir gemeinsam, ob eine Mediation für Ihre Betriebsnachfolge der richtige Weg ist.
-
-{{< /cta >}}
-
-Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/mediation-hofnachfolge-landwirtschaft-sachsen/).

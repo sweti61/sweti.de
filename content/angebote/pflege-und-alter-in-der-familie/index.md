@@ -7,6 +7,8 @@ tags:
   - angebote
   - mediation
 weight: 10
+cta: true
+after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf mediator.sweti.de, sowohl zu [Familienkonflikt zwischen den Generationen](https://mediator.sweti.de/angebote/familienkonflikt-generationen-dresden/) als auch zu [Mediation bei Pflege, Erbe und Übergang](https://mediator.sweti.de/angebote/mediation-bei-pflege-erbe-uebergang-dresden/)."
 ---
 
 {{< image-text
@@ -57,14 +59,3 @@ Ich bewerte keine Rechtsansprüche und ersetze keine anwaltliche, notarielle ode
 
 Wenn Sie merken, dass sich in Ihrer Familie Rollen verändern und Gespräche darüber schwerer werden, muss nicht gleich alles auf einmal geklärt werden. Oft reicht ein erster Schritt, um wieder ins Gespräch zu kommen.
 
-{{< cta
-  url="https://calendly.com/mediator-sweti"
-  text="Kostenfreies Gespräch vereinbaren"
-  accent="blue"
->}}
-
-In einem ersten, unverbindlichen Gespräch schauen wir gemeinsam, ob dieses Format zu Ihrer Situation passt.
-
-{{< /cta >}}
-
-Mehr Hintergrund und ausführliche Informationen finden Sie auf mediator.sweti.de, sowohl zu [Familienkonflikt zwischen den Generationen](https://mediator.sweti.de/angebote/familienkonflikt-generationen-dresden/) als auch zu [Mediation bei Pflege, Erbe und Übergang](https://mediator.sweti.de/angebote/mediation-bei-pflege-erbe-uebergang-dresden/).

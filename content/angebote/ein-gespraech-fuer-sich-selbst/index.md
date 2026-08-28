@@ -10,6 +10,8 @@ tags:
 slug: "ein-gespraech-fuer-sich-selbst"
   
 weight: 60
+
+after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/coaching-in-uebergaengen/)."
 ---
 
 {{< image-text
@@ -52,14 +54,3 @@ Dieses Gespräch ersetzt keine Therapie und keine Rechtsberatung. Es ist auch ke
 
 Wenn Sie merken, dass gerade vieles in Bewegung ist und Sie sich mehr Klarheit für sich selbst wünschen, kann ein erstes Gespräch ein guter Anfang sein. Sie müssen dafür noch keine fertige Frage mitbringen.
 
-{{< cta
-  url="https://calendly.com/mediator-sweti"
-  text="Kostenfreies Gespräch vereinbaren"
-  accent="blue"
->}}
-
-In einem ersten, unverbindlichen Gespräch schauen wir gemeinsam, ob dieses Format zu Ihrer Situation passt.
-
-{{< /cta >}}
-
-Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/coaching-in-uebergaengen/).

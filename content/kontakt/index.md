@@ -1,11 +1,13 @@
 ---
-title: "Kontakt: Mediator und Coach in Dresden"
+title: "Kontakt: Mediator und Konflikt-Coach in Dresden"
 description: "Vereinbaren Sie ein unverbindliches Erstgespräch: telefonisch, per E-Mail oder direkt über Calendly."
 slug: "/kontakt/"
 date: 2026-08-25
 ---
+*Veränderung beginnt mit einem Gespräch.*
 
-Ob Sie bereits wissen, dass eine Mediation oder ein Konflikt-Coaching zu Ihrer Situation passt, oder das zunächst gemeinsam klären möchten: Ein erstes Gespräch ist unverbindlich und kostet Sie nur etwa eine halbe Stunde Zeit. Sie erreichen mich telefonisch, per E-Mail oder direkt über den Online-Kalender. Alle drei Wege führen zuverlässig zu mir.
+
+Ob Sie bereits wissen, dass eine Mediation oder ein Konflikt-Coaching zu Ihrer Situation passt, oder das zunächst gemeinsam klären möchten: Ein erstes Gespräch ist unverbindlich und dauert etwa eine halbe Stunde. Sie erreichen mich telefonisch, per E-Mail oder direkt über den Online-Kalender. Alle drei Wege führen zuverlässig zu mir.
 
 {{< cta
   url="https://calendly.com/mediator-sweti"
@@ -22,7 +24,7 @@ Der schnellste Weg zu einem ersten Gespräch: Wählen Sie im Kalender einen frei
 **Dr. Swetoslaw Beltschew**  
 Mediator · Coach · systemischer Berater
 
-Bünaustr. 52 · 01159 Dresden  
+Bünaustraße 52 · 01159 Dresden  
 [mediator@sweti.de](mailto:mediator@sweti.de)  
 [0163 803 5634](tel:+491638035634)
 
@@ -36,6 +38,3 @@ Tätigkeitsgebiet: Dresden und Sachsen, Online-Verfahren sind ebenso möglich.
 
 Was Sie mir in einer ersten Nachricht schreiben, wird vertraulich behandelt und ausschließlich zur Bearbeitung Ihrer Anfrage genutzt. Näheres dazu finden Sie in der [Datenschutzerklärung](/datenschutz/).
 
-## Rechtliches
-
-[Impressum](/impressum/) · [Datenschutzerklärung](/datenschutz/)

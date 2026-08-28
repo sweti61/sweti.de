@@ -11,9 +11,9 @@ enableRobotsTXT = true
 
 [params]
   description = "Mediation und Konfliktklärung für Privatpersonen."
-  googleSiteVerification = "ABC123XYZ..."
   googleMapsApiKey = "AIzaSyB-ExsHpwFOby3DWnnHx_0dE-V-u3M-HOE"
   defaultSocialImage = "images/og-default.jpg"
+  calendlyURL = "https://calendly.com/mediator-sweti"
 
 [[menu.main]]
   name = "Angebote"

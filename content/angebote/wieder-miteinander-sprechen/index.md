@@ -4,13 +4,15 @@ description: "Moderierte Gespräche bei Konflikten zwischen Paaren, Eltern und K
 summary: "Wenn eine wichtige Beziehung ins Stocken geraten ist, hilft ein geschützter, moderierter Gesprächsraum, um wieder miteinander sprechen zu können."
 date: 2026-08-23
 
-slug: "klarheit-fuer-sich-selbst"
+slug: "wieder-miteinander-sprechen"
 
 tags:
   - angebote
   - beratung
   
 weight: 30
+
+after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf mediator.sweti.de, sowohl zu [Beziehungs- und Familiengesprächen](https://mediator.sweti.de/angebote/beziehungs-und-familiengespraeche/) als auch zu [Beziehung beruhigen](https://mediator.sweti.de/angebote/beziehung-beruhigen/)."
 ---
 
 {{< image-text
@@ -53,14 +55,3 @@ Auch hier gilt, dass ich auf keiner Seite stehe und niemanden bewerte. Dieses Ge
 
 Manche Gespräche lassen sich nicht allein führen. Wenn Sie merken, dass zwischen Ihnen und einem wichtigen Menschen etwas ins Stocken geraten ist, kann ein erstes, unverbindliches Gespräch der Anfang sein.
 
-{{< cta
-  url="https://calendly.com/mediator-sweti"
-  text="Kostenfreies Gespräch vereinbaren"
-  accent="blue"
->}}
-
-In einem ersten, unverbindlichen Gespräch schauen wir gemeinsam, ob dieses Format zu Ihrer Situation passt.
-
-{{< /cta >}}
-
-Mehr Hintergrund und ausführliche Informationen finden Sie auf mediator.sweti.de, sowohl zu [Beziehungs- und Familiengesprächen](https://mediator.sweti.de/angebote/beziehungs-und-familiengespraeche/) als auch zu [Beziehung beruhigen](https://mediator.sweti.de/angebote/beziehung-beruhigen/).

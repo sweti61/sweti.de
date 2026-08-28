@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+  {{ partial "hero.html" . }}
+
+  <main id="main"
+        class="container">
+
+    <div class="prose">
+
+{{ .Content }}
+
+{{- $showCTA := true -}}
+
+{{- if isset .Params "cta" -}}
+  {{- $showCTA = .Params.cta -}}
+{{- end -}}
+
+{{- if $showCTA -}}
+
+  {{ partial "cta.html" (dict
+      "url" site.Params.calendlyURL
+      "text" "Kostenfreies Orientierungsgespräch vereinbaren"
+      "accent" "blue"
+      "style" "solid"
+      "content" "In einem ersten, unverbindlichen Gespräch klären wir gemeinsam, welche Form der Unterstützung für Ihre Situation sinnvoll ist."
+      "page" .
+  ) }}
+
+{{- end -}}
+
+{{- with .Params.after_cta }}
+  <div class="after-cta">
+    {{ . | $.RenderString }}
+  </div>
+{{- end }}
+    </div>
+
+  </main>
+
+{{ end }}

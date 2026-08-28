@@ -21,7 +21,7 @@ faq:
   - question: "Ist eine in der Mediation getroffene Vereinbarung rechtlich bindend?"
     answer: "Eine Vereinbarung aus der Mediation kann schriftlich festgehalten werden, ich biete dabei aber keine Rechtsberatung an. Wenn eine rechtlich bindende oder notariell abgesicherte Lösung gewünscht ist, sollten Sie zusätzlich eine Rechtsanwältin, einen Rechtsanwalt oder eine Notarin beziehungsweise einen Notar hinzuziehen. Mediation ersetzt keine rechtliche Beratung, kann aber eine gute Grundlage für eine spätere rechtliche Absicherung schaffen."
   - question: "Welche Ausbildung haben Sie als Mediator?"
-    answer: "Ich bin ausgebildeter Mediator am INKOVEMA-Institut Leipzig. Mehr über meinen Werdegang und meine Erfahrung erfahren Sie auf der Seite Über mich."
+    answer: "Ich bin ausgebildeter Mediator am INKOVEMA Institut Leipzig. Mehr über meinen Werdegang und meine Erfahrung erfahren Sie auf der Seite Über mich."
 ---
 
 Vor einer Mediation, einem Konflikt-Coaching oder einer systemischen Beratung tauchen oft ähnliche Fragen auf. Die folgenden Antworten sollen Ihnen helfen, sich vorab ein klares Bild zu machen.
@@ -56,7 +56,7 @@ Eine Vereinbarung aus der Mediation kann schriftlich festgehalten werden, ich bi
 
 ## Welche Ausbildung haben Sie als Mediator?
 
-Ich bin ausgebildeter Mediator am INKOVEMA-Institut Leipzig. Mehr über meinen Werdegang und meine Erfahrung erfahren Sie auf der Seite [Über mich]({{< relref "ueber-mich" >}}).
+Ich bin ausgebildeter Mediator am INKOVEMA Institut Leipzig. Mehr über meinen Werdegang und meine Erfahrung erfahren Sie auf der Seite [Über mich]({{< relref "ueber-mich" >}}).
 
 {{< cta
   url="https://calendly.com/mediator-sweti"

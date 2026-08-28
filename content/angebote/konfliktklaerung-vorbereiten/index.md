@@ -9,6 +9,8 @@ tags:
   - coaching
  
 weight: 50
+
+after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/konfliktklaerung-vorbereiten/)."
 ---
 
 {{< image-text
@@ -49,15 +51,4 @@ Am Anfang steht ein kostenfreies erstes Gespräch von etwa dreißig bis fünfund
 
 Sie müssen noch nicht wissen, was als Nächstes passieren soll. Es reicht, wenn Sie merken, dass Sie gerade nicht alleine weiterdenken möchten.
 
-{{< cta
-  url="https://calendly.com/mediator-sweti"
-  text="Kostenfreies Gespräch vereinbaren"
-  accent="blue"
->}}
-
-In einem ersten, unverbindlichen Gespräch schauen wir gemeinsam, ob dieses Format zu Ihrer Situation passt.
-
-{{< /cta >}}
-
-Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/konfliktklaerung-vorbereiten/).
 

@@ -1,0 +1,40 @@
+{{- $url := .url -}}
+{{- $text := .text | default "Termin vereinbaren" -}}
+{{- $accent := .accent | default "blue" -}}
+{{- $style := .style | default "solid" -}}
+{{- $content := .content | default "" -}}
+{{- $page := .page -}}
+
+{{- $allowedAccents := slice "blue" "green" "orange" -}}
+{{- $allowedStyles := slice "solid" "outline" -}}
+
+{{- if not $url -}}
+  {{- errorf "CTA: Keine URL angegeben und params.calendlyURL fehlt" -}}
+{{- end -}}
+
+{{- if not (in $allowedAccents $accent) -}}
+  {{- warnf "CTA: Ungültiger accent-Wert '%s'. Fallback auf 'blue'." $accent -}}
+  {{- $accent = "blue" -}}
+{{- end -}}
+
+{{- if not (in $allowedStyles $style) -}}
+  {{- warnf "CTA: Ungültiger style-Wert '%s'. Fallback auf 'solid'." $style -}}
+  {{- $style = "solid" -}}
+{{- end -}}
+
+<section class="cta cta--{{ $accent }} cta--{{ $style }}">
+
+  {{- with $content }}
+    <div class="cta__content">
+      {{ . | markdownify }}
+    </div>
+  {{- end }}
+
+  <a class="cta__button"
+     href="{{ $url }}"
+     target="_blank"
+     rel="noopener noreferrer">
+    {{ $text }}
+  </a>
+
+</section>

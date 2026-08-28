@@ -1,36 +1,13 @@
-{{- $url := .Get "url" -}}
+{{- $url := .Get "url" | default site.Params.calendlyURL -}}
 {{- $text := .Get "text" | default "Termin vereinbaren" -}}
 {{- $accent := .Get "accent" | default "blue" -}}
 {{- $style := .Get "style" | default "solid" -}}
 
-{{- $allowedAccents := slice "blue" "green" "orange" -}}
-{{- $allowedStyles := slice "solid" "outline" -}}
-
-{{- if not $url -}}
-  {{- errorf "Shortcode cta: Parameter 'url' fehlt in %s" .Page.File.Path -}}
-{{- end -}}
-
-{{- if not (in $allowedAccents $accent) -}}
-  {{- warnf "Shortcode cta: Ungültiger accent-Wert '%s' in %s. Fallback auf 'blue'." $accent .Page.File.Path -}}
-  {{- $accent = "blue" -}}
-{{- end -}}
-
-{{- if not (in $allowedStyles $style) -}}
-  {{- warnf "Shortcode cta: Ungültiger style-Wert '%s' in %s. Fallback auf 'solid'." $style .Page.File.Path -}}
-  {{- $style = "solid" -}}
-{{- end -}}
-
-<section class="cta cta--{{ $accent }} cta--{{ $style }}">
-
-  <div class="cta__content">
-    {{ .Inner | markdownify }}
-  </div>
-
-  <a class="cta__button"
-     href="{{ $url }}"
-     target="_blank"
-     rel="noopener noreferrer">
-    {{ $text }}
-  </a>
-
-</section>
+{{ partial "cta.html" (dict
+    "url" $url
+    "text" $text
+    "accent" $accent
+    "style" $style
+    "content" .Inner
+    "page" .Page
+) }}

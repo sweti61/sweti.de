@@ -7,6 +7,8 @@ slug: "nachbarschaftskonflikt-klaeren"
 tags:
   - angebote
 weight: 70
+
+after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/nachbarschaftskonflikt-mediation-dresden/)."
 ---
 
 {{< image-text
@@ -45,14 +47,3 @@ Ein moderiertes Gespräch funktioniert nur freiwillig und setzt voraus, dass bei
 
 Wenn der Ärger mit dem Nachbarn Ihren Alltag belastet, muss nicht gleich beide Seiten dieselbe Sicht auf die Dinge haben. Oft reicht es, wenn eine Seite den ersten Schritt macht.
 
-{{< cta
-  url="https://calendly.com/mediator-sweti"
-  text="Kostenfreies Gespräch vereinbaren"
-  accent="blue"
->}}
-
-In einem ersten, unverbindlichen Gespräch schauen wir gemeinsam, ob dieses Format zu Ihrer Situation passt.
-
-{{< /cta >}}
-
-Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/nachbarschaftskonflikt-mediation-dresden/).

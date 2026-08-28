@@ -8,6 +8,8 @@ tags:
   - angebote
   - mediation
 weight: 20
+
+after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/erbschaftsstreit-mediation-dresden/)."
 ---
 
 {{< image-text
@@ -50,12 +52,3 @@ Ich bewerte keine Rechtsansprüche und ersetze keine anwaltliche oder notarielle
 
 Sie stehen mitten in einem Erbschaftsstreit oder möchten verhindern, dass daraus einer wird. Ein erstes, unverbindliches Gespräch kann zeigen, ob eine Mediation für Ihre Familie der richtige Weg ist.
 
-{{< cta
-  url="https://calendly.com/mediator-sweti"
-  text="Kostenfreies Gespräch vereinbaren"
-  accent="blue"
->}}
-In einem ersten, unverbindlichen Gespräch schauen wir gemeinsam, ob dieses Format zu Ihrer Situation passt.
-{{< /cta >}}
-
-Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/erbschaftsstreit-mediation-dresden/).
