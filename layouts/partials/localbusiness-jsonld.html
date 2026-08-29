@@ -2,6 +2,8 @@
 {{- $business := site.Params.business -}}
 
 {{- $address := dict
+    "@type" "State"
+    "name" "Sachsen"
     "@type" "PostalAddress"
     "streetAddress" $contact.street
     "postalCode" $contact.postalCode

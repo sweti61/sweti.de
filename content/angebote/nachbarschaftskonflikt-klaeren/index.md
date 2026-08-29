@@ -8,8 +8,11 @@ tags:
   - angebote
 weight: 70
 
-after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/nachbarschaftskonflikt-mediation-dresden/)."
+after_cta: |
+ Ausführlichere fachliche Hintergründe finden Sie auf [Nachbarschaftskonflikt Dresden - Mediation](https://mediator.sweti.de/nachbarschaftskonflikt-mediation-dresden/).
+   
 ---
+
 
 {{< image-text
   src="portrait.png"

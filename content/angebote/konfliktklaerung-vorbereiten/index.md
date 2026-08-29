@@ -10,7 +10,8 @@ tags:
  
 weight: 50
 
-after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/konfliktklaerung-vorbereiten/)."
+after_cta: |
+   Mehr Hintergrund und ausführliche Informationen finden Sie auf [Konfliktklärung vorbereiten – strukturiert und klar](https://mediator.sweti.de/angebote/konfliktklaerung-vorbereiten/).
 ---
 
 {{< image-text

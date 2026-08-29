@@ -10,39 +10,17 @@ description: "Mediation und Konfliktklärung in Dresden: Ich begleite Sie, wenn 
 
 {{< card-grid >}}
 
-{{< card 
-	title="Familie & Beziehung"
-	url="https://mediator.sweti.de/angebote/beziehungs-und-familiengespraeche/"
-	icon="users" 
-	accent="blue" 
-	titleSize="normal"
-    textSize="normal"
->}}
+{{< card title="Familie & Beziehung" url="angebote/wieder-miteinander-sprechen" icon="users" accent="blue" >}}
 Wenn Gespräche zwischen Eltern und Kindern, unter Geschwistern oder in der Partnerschaft ins Stocken geraten.
 {{< /card >}}
 
-{{< card 
-	title="Pflege & Erbe"
-	url="https://mediator.sweti.de/angebote/mediation-bei-pflege-erbe-uebergang-dresden/"	
-	icon="heart" 
-	accent="green" 
-	titleSize="normal"
-    textSize="normal"
->}}
+{{< card title="Pflege & Erbe" url="angebote/pflege-und-alter-in-der-familie" icon="heart" accent="green" >}}
 Wenn Pflege, Verantwortung oder eine Erbschaft alte Rollen und neue Spannungen sichtbar machen, auch als Elder Mediation.
 {{< /card >}}
 
-{{< card title="Nachbarschaft"
-	url="https://mediator.sweti.de/nachbarschaftskonflikt-mediation-dresden/"
-	icon="home" 
-	accent="orange"
-	titleSize="normal"
-    textSize="normal"
->}}
+{{< card title="Nachbarschaft" url="angebote/nachbarschaftskonflikt-klaeren" icon="home" accent="orange" >}}
 Wenn Streit mit Nachbarn den Alltag belastet und ein Gespräch allein nicht mehr weiterhilft.
-{{< /card >}}
-
-{{< /card-grid >}}
+{{< /card >}}{{< /card-grid >}}
 
 Jede dieser Situationen braucht einen eigenen Zugang. Manchmal hilft ein moderiertes Gespräch mit allen Beteiligten, manchmal zunächst ein Gespräch nur für sich selbst. Ich arbeite dafür wahlweise als Mediator, Konflikt-Coach oder systemischer Berater, je nachdem, was Ihre Situation braucht. [Wie sich das in der Praxis anfühlen kann](https://mediator.sweti.de/post/fall-zaun/), zeigt eine Fallgeschichte aus einem Nachbarschaftskonflikt.
 {#situation}
@@ -50,7 +28,7 @@ Jede dieser Situationen braucht einen eigenen Zugang. Manchmal hilft ein moderie
 {{< panel title="So läuft es ab" icon="calendar" accent="orange" >}}
 1. Anruf oder E-Mail, ich melde mich zeitnah zurück
 2. Kostenloses Vorgespräch mit erster Einschätzung
-3. Mediation, Konflikt-Coaching oder systemische Beratung, je nach Situation
+3. Mediation, Konflikt-Coaching oder systemische Konflikt-Beratung, je nach Situation
 4. Nachgespräch bei Bedarf
 {{< /panel >}}
 

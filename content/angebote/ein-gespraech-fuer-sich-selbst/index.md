@@ -11,7 +11,8 @@ slug: "ein-gespraech-fuer-sich-selbst"
   
 weight: 60
 
-after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/coaching-in-uebergaengen/)."
+after_cta: |
+   Mehr Hintergrund und ausführliche Informationen finden Sie auf [Coaching in Übergängen – Klarheit in Zeiten des Wandels](https://mediator.sweti.de/angebote/coaching-in-uebergaengen/).
 ---
 
 {{< image-text

@@ -9,7 +9,10 @@ tags:
   - mediation
 weight: 40
 
-after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/mediation-hofnachfolge-landwirtschaft-sachsen/)."
+after_cta: |
+   Mehr Hintergrund und ausführliche Informationen finden Sie auf [Mediation bei Hofnachfolge und Konflikten im landwirtschaftlichen Familienbetrieb](https://mediator.sweti.de/angebote/mediation-hofnachfolge-landwirtschaft-sachsen/).
+   
+   Eine Hofübergabe ist oft zugleich eine Erbfrage. Mehr dazu auf der Seite [Erbschaftsstreit klären](/angebote/erbschaftsstreit-klaeren).
 ---
 
 {{< image-text

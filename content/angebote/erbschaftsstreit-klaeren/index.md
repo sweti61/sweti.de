@@ -9,7 +9,10 @@ tags:
   - mediation
 weight: 20
 
-after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf [mediator.sweti.de](https://mediator.sweti.de/angebote/erbschaftsstreit-mediation-dresden/)."
+after_cta: |
+   Ein Erbschaftsstreit entsteht häufig aus einer vorangegangenen Pflegesituation. Mehr dazu auf der Seite [Pflege und Alter in der Familie](/angebote/pflege-und-alter-in-der-familie).
+   
+   Mehr Hintergrund und ausführliche Informationen finden Sie auf [Erbschaftsstreit klären – Mediation in Dresden für Erbengemeinschaften](https://mediator.sweti.de/angebote/erbschaftsstreit-mediation-dresden/) und [Mediation bei Pflege, Erbe und Übergang in Dresden](https://mediator.sweti.de/angebote/mediation-bei-pflege-erbe-uebergang-dresden/).
 ---
 
 {{< image-text

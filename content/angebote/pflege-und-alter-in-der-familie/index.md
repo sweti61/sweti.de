@@ -8,7 +8,10 @@ tags:
   - mediation
 weight: 10
 cta: true
-after_cta: "Mehr Hintergrund und ausführliche Informationen finden Sie auf mediator.sweti.de, sowohl zu [Familienkonflikt zwischen den Generationen](https://mediator.sweti.de/angebote/familienkonflikt-generationen-dresden/) als auch zu [Mediation bei Pflege, Erbe und Übergang](https://mediator.sweti.de/angebote/mediation-bei-pflege-erbe-uebergang-dresden/)."
+after_cta: |
+   Manchmal geht es bei der Pflege eines Angehörigen zugleich um die Frage, wie ein Erbe später geregelt werden soll. Mehr dazu auf der Seite [Erbschaftsstreit klären](/angebote/erbschaftsstreit-klaeren/).
+   
+   Mehr Hintergrund und ausführliche Informationen finden Sie auf mediator.sweti.de, sowohl zu [Familienkonflikt zwischen den Generationen](https://mediator.sweti.de/angebote/familienkonflikt-generationen-dresden/) als auch zu [Mediation bei Pflege, Erbe und Übergang](https://mediator.sweti.de/angebote/mediation-bei-pflege-erbe-uebergang-dresden/).
 ---
 
 {{< image-text
