@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Hugo Server",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "server",
+        "--cleanDestinationDir",
+        "--disableFastRender",
+        "--noHTTPCache",
+        "--ignoreCache"
+      ],
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Hugo Production Build",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "--gc",
+        "--minify",
+        "--cleanDestinationDir"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
