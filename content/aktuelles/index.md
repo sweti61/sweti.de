@@ -6,6 +6,36 @@ lastmod: 2026-08-26
 ---
 
 Hier finden Sie neue Beiträge, Veranstaltungen und aktuelle Informationen zu meiner Arbeit.
+{{< news-card
+  category="info"
+  date="2026-09-21"
+  title="Nutzunk Notion"
+>}}
+
+Ich nutze Notion inzwischen nicht nur für Notizen, sondern auch zur **Steuerung meiner laufenden Arbeitsvorgänge**.
+
+Dafür habe ich mir ein eigenes, bewusst einfach gehaltenes System aufgebaut: ein kleines **Relationship Management mit Content-Hub (RMCH)**. Darin verbinde ich unter anderem Kontakte, Organisationen, Angebote, konkrete geschäftliche Vorgänge, Aufgaben sowie meine Content-Arbeit.
+
+Besonders wichtig ist mir dabei die Frage:
+
+**Wie lassen sich Arbeitsvorgänge so strukturieren, dass das System im Alltag unterstützt – ohne selbst zum Verwaltungsprojekt zu werden?**
+
+Mein RMCH ist inzwischen im praktischen Einsatz. Jetzt interessiert mich sehr, wie andere damit umgehen.
+
+Wenn du Notion oder ein anderes System nutzt, um
+
+* laufende Vorgänge zu steuern,
+* Aufgaben mit größeren Vorhaben zu verbinden,
+* Wiedervorlagen im Blick zu behalten,
+* Beziehungen und Akquise zu organisieren
+* oder Content- und Projektarbeit sinnvoll zusammenzuführen,
+
+freue ich mich sehr über einen Austausch.
+
+Mich interessieren besonders Erfahrungen aus der Praxis: Was funktioniert gut? Was wurde zu kompliziert? Welche Strukturen haben sich bewährt – und welche wieder verworfen?
+
+Gern einfach Kontakt aufnehmen. Ich freue mich auf den Austausch mit Kolleginnen und Kollegen, die ähnliche Fragen beschäftigen.
+{{< /news-card >}}
 
 {{< news-card
   category="info"
