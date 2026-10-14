@@ -1,40 +1,40 @@
 ---
 title: "Aktuelles"
-description: "Aktuelle Informationen, Veranstaltungen und neue Beiträge von Swetoslaw Beltschew."
+description: "Neue Beiträge, Veranstaltungen und Informationen von Dr. Swetoslaw Beltschew, Mediator in Dresden."
 date: 2026-08-21
-lastmod: 2026-08-26
+lastmod: 2026-10-14
 ---
 
-Hier finden Sie neue Beiträge, Veranstaltungen und aktuelle Informationen zu meiner Arbeit.
+Hier finden Sie neue Beiträge, Veranstaltungen und Informationen zu meiner Arbeit. Das Neueste steht oben.
+
 {{< news-card
-  category="info"
-  date="2026-09-21"
-  title="Nutzunk Notion"
+  category="blog"
+  date="2026-10-14"
+  title="Zwischenräume: wo Wandel wirklich passiert"
 >}}
+Wenn das Alte nicht mehr trägt und das Neue noch nicht vertraut ist, entsteht Raum für Wandel. Am Beispiel des Übergangs in den Ruhestand zeigt der Artikel, wie solche Zwischenräume zu Möglichkeitsräumen werden können.
 
-Ich nutze Notion inzwischen nicht nur für Notizen, sondern auch zur **Steuerung meiner laufenden Arbeitsvorgänge**.
+[Ganzen Artikel lesen](https://mediator.sweti.de/post/zwischenraeume-wo-wandel-wirklich-passiert/)
+{{< /news-card >}}
 
-Dafür habe ich mir ein eigenes, bewusst einfach gehaltenes System aufgebaut: ein kleines **Relationship Management mit Content-Hub (RMCH)**. Darin verbinde ich unter anderem Kontakte, Organisationen, Angebote, konkrete geschäftliche Vorgänge, Aufgaben sowie meine Content-Arbeit.
+{{< news-card
+  category="blog"
+  date="2026-10-08"
+  title="Der Nachhall"
+>}}
+Nicht jede Mediation endet mit einer Vereinbarung. Der Artikel beschreibt, was nach einem solchen Fall zurückbleibt: der gute Nachhall, der schwere Nachhall und die Frage, ob der Erfolg der einen Seite ein Misserfolg der anderen sein muss.
 
-Besonders wichtig ist mir dabei die Frage:
+[Ganzen Artikel lesen](https://mediator.sweti.de/post/der-nachhall/)
+{{< /news-card >}}
 
-**Wie lassen sich Arbeitsvorgänge so strukturieren, dass das System im Alltag unterstützt – ohne selbst zum Verwaltungsprojekt zu werden?**
+{{< news-card
+  category="blog"
+  date="2026-09-24"
+  title="Was mir 35 Jahre Verwaltung gegeben haben und was Mediation nicht ersetzen kann"
+>}}
+Was bringt jemand in die Mediation mit, der 35 Jahre in der öffentlichen Verwaltung gearbeitet hat? Der Artikel beschreibt Haltungen und Fähigkeiten, die Mediation braucht, aber nicht selbst erzeugen kann.
 
-Mein RMCH ist inzwischen im praktischen Einsatz. Jetzt interessiert mich sehr, wie andere damit umgehen.
-
-Wenn du Notion oder ein anderes System nutzt, um
-
-* laufende Vorgänge zu steuern,
-* Aufgaben mit größeren Vorhaben zu verbinden,
-* Wiedervorlagen im Blick zu behalten,
-* Beziehungen und Akquise zu organisieren
-* oder Content- und Projektarbeit sinnvoll zusammenzuführen,
-
-freue ich mich sehr über einen Austausch.
-
-Mich interessieren besonders Erfahrungen aus der Praxis: Was funktioniert gut? Was wurde zu kompliziert? Welche Strukturen haben sich bewährt – und welche wieder verworfen?
-
-Gern einfach Kontakt aufnehmen. Ich freue mich auf den Austausch mit Kolleginnen und Kollegen, die ähnliche Fragen beschäftigen.
+[Ganzen Artikel lesen](https://mediator.sweti.de/post/was-mir-verwaltung-gegeben-hat/)
 {{< /news-card >}}
 
 {{< news-card
@@ -42,7 +42,7 @@ Gern einfach Kontakt aufnehmen. Ich freue mich auf den Austausch mit Kolleginnen
   date="2026-08-28"
   title="Rezension von INKOVEMA"
 >}}
-Hier den kompletten Text der Rezension:
+Das Ausbildungsinstitut INKOVEMA hat mir eine Rezension geschrieben:
 
 *Im Rahmen seiner Mediationsausbildung haben wir Sweti als einen ausgesprochen engagierten und lebenserfahrenen Teilnehmer kennengelernt. Er brachte sich mit großer Offenheit, hoher Verlässlichkeit und einer spürbaren Motivation in den Ausbildungsprozess ein. Besonders beeindruckt hat uns, wie er sich intensiv mit Konfliktdynamiken und den eigenen Kompetenzen auseinandergesetzt hat.*
 
@@ -50,18 +50,17 @@ Hier den kompletten Text der Rezension:
 
 *Mit viel Engagement und Zielstrebigkeit hat er früh den Aufbau seiner selbstständigen Tätigkeit verfolgt. Wir wünschen ihm für seine Tätigkeit als Mediator weiterhin viel Erfolg, inspirierende Begegnungen und alles Gute für seinen weiteren beruflichen und persönlichen Weg.*
 
-Dank an das Team von [INKOVEMA](https://inkovema.de)
+Herzlichen Dank an das Team von [INKOVEMA](https://inkovema.de).
 
-Über weitere Rezensionen auf [Google Businessprofil](https://g.page/r/CZpKbpGLQ3nLEBM/review) werde ich mich sehr freuen
-
+Wenn Sie ein Gespräch mit mir hilfreich fanden, freue ich mich über eine [Bewertung bei Google](https://g.page/r/CZpKbpGLQ3nLEBM/review).
 {{< /news-card >}}
 
 {{< news-card
   category="blog"
-  date="2027-08-27"
+  date="2026-08-27"
   title="Warum ich manchmal in einer Verhandlung schweige"
 >}}
-Als Mediator ist es verlockend, viel zu tun. Aber manchmal ist das Wichtigste, nichts zu tun. Dieser Artikel beschreibt, warum ich manchmal schweige – und was in dieser Stille entsteht, das keine Intervention erzeugen könnte.
+Als Mediator ist es verlockend, viel zu tun. Manchmal ist das Wichtigste aber, nichts zu tun. Der Artikel beschreibt, was in der Stille entstehen kann und warum keine Intervention das ersetzen würde.
 
 [Ganzen Artikel lesen](https://mediator.sweti.de/post/warum-ich-schweige/)
 {{< /news-card >}}
@@ -71,7 +70,7 @@ Als Mediator ist es verlockend, viel zu tun. Aber manchmal ist das Wichtigste, n
   date="2026-08-21"
   title="Was in mir arbeitet, wenn eine Mediation scheitert"
 >}}
-Wenn eine Mediation scheitert, bleibt eine Frage zurück: Habe ich methodisch versagt – oder war das die richtige Grenze für dieses Verfahren? Dieser Artikel beschreibt, was in mir arbeitet, wenn ein Verfahren nicht gelingt, und warum diese Unterscheidung entscheidend ist.
+Wenn eine Mediation scheitert, bleibt eine Frage: War es ein methodischer Fehler oder die richtige Grenze für dieses Verfahren? Der Artikel beschreibt, warum diese Unterscheidung so wichtig ist.
 
 [Ganzen Artikel lesen](https://mediator.sweti.de/post/wenn-mediation-scheitert/)
 {{< /news-card >}}
@@ -79,19 +78,15 @@ Wenn eine Mediation scheitert, bleibt eine Frage zurück: Habe ich methodisch ve
 {{< news-card
   category="event"
   date="2026-08-20"
-  title="Grill-and-Chill mit BMEV"
+  title="Grillabend mit dem Bundesverband Mediation"
 >}}
-Ein geselliger und aufschlussreicher Grillabend mit Mitgliedern des Vorstandes des Bundesverbands der Mediation e.V. (BMEV). Es herrschte eine fröhliche Atmosphäre, und die Fachgespräche erwiesen sich als äußerst aufschlussreich.
-
-[Elder-Mediation](https://mediator.sweti.de/post/elder-mediation/) war ein zentrales Thema.
+Ein geselliger Abend mit Mitgliedern des Vorstands des Bundesverbands Mediation e.V. (BMEV), mit guten Fachgesprächen. Ein zentrales Thema war die [Elder Mediation](https://mediator.sweti.de/post/elder-mediation/), also Mediation in Familien mit älteren Angehörigen.
 {{< /news-card >}}
 
 {{< news-card
   category="info"
   date="2026-08-10"
-  title="Neue Website der Regionalgruppe Dresden bei BMEV"
+  title="Neue Website der Regionalgruppe Dresden im BMEV"
 >}}
-
-Die [Regionalgruppe Dresden](https://rg-dresden.bmev.de/) vom BMEV hat jetzt, dank meiner Unterstützung, eine neue Website im Internet. Die Grundfunktionalität ist definiert. Die Optimierungsrunde wird im Oktober stattfinden.
-
+Die [Regionalgruppe Dresden](https://rg-dresden.bmev.de/) des Bundesverbands Mediation hat eine neue Website. Ich habe sie beim Aufbau unterstützt.
 {{< /news-card >}}
