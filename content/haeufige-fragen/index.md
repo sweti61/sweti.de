@@ -27,6 +27,7 @@ faq:
 
 Vor dem ersten Gespräch tauchen oft ähnliche Fragen auf. Hier finden Sie kurze Antworten.
 
+
 ## Wie beginnt es?
 
 Mit einem kostenfreien Orientierungsgespräch. Es dauert 30 Minuten am Telefon oder 45 Minuten per Zoom. Sie erzählen, was bei Ihnen ansteht, und wir schauen gemeinsam, was jetzt hilfreich sein könnte. Danach entscheiden Sie, ob und wie es weitergeht.
