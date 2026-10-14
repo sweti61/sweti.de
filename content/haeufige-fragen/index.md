@@ -1,69 +1,72 @@
 ---
-title: "Häufige Fragen zur Mediation in Dresden"
-description: "Antworten auf häufige Fragen zu Ablauf, Kosten und Vertraulichkeit einer Mediation in Dresden."
-summary: "Antworten auf die häufigsten Fragen vor einer Mediation, einem Konflikt-Coaching oder einer systemischen Beratung."
+title: "Häufige Fragen zu Konfliktbegleitung und Mediation in Dresden"
+description: "Antworten auf häufige Fragen zum kostenfreien Orientierungsgespräch, zu Ablauf, Kosten und Vertraulichkeit."
+summary: "Antworten auf die häufigsten Fragen vor dem ersten Gespräch."
 date: 2026-08-26
+lastmod: 2026-10-14
 tags:
   - faq
 faq:
-  - question: "Wie läuft eine Mediation bei Ihnen ab?"
-    answer: "In einem ersten, kostenlosen Gespräch klären wir gemeinsam, worum es geht und ob eine Mediation der richtige Weg ist. Findet ein Termin statt, treffen sich alle Beteiligten in der Regel persönlich in Dresden, ein Gespräch ist auf Wunsch aber auch online möglich. Eine Mediationssitzung dauert etwa 90 Minuten, je nach Situation sind mehrere Sitzungen sinnvoll. Am Ende steht keine vorgegebene Lösung, sondern eine Vereinbarung, die alle Beteiligten mittragen können."
-  - question: "Ist das Erstgespräch wirklich kostenlos?"
-    answer: "Ja. Das erste Gespräch dauert etwa 30 bis 45 Minuten und ist kostenlos. Es dient dazu, Ihre Situation kennenzulernen und gemeinsam einzuschätzen, ob Mediation, Konflikt-Coaching oder systemische Beratung zu Ihrer Situation passt. Eine inhaltliche Beratung findet in diesem ersten Gespräch noch nicht statt."
-  - question: "Was kostet eine Mediation?"
-    answer: "Eine Mediationssitzung von 90 Minuten kostet 160 Euro. Für ein Konflikt-Coaching mit einer einzelnen Person liegt der Preis bei 120 Euro pro Sitzung, für eine systemische Beratung mit mehreren Beteiligten bei 180 Euro pro Sitzung. Bei besonders aufwändigen Fällen, etwa bei stark eskalierten Konflikten oder bei mehr als vier Beteiligten, kann ein Komplexitätszuschlag von 20 Prozent anfallen. Fahrtkosten werden gesondert berechnet."
-  - question: "Ist das Gespräch vertraulich?"
-    answer: "Ja, alles, was in einem Gespräch besprochen wird, bleibt vertraulich und unterliegt dem Datenschutz. Ich gebe keine Inhalte an Dritte weiter, auch nicht an andere Beteiligte ohne Ihr Einverständnis. Sie entscheiden selbst, was besprochen und was schriftlich festgehalten wird. Persönliche Daten werden ausschließlich für die Durchführung der Mediation verwendet und nicht für andere Zwecke genutzt."
-  - question: "Was, wenn die andere Seite nicht mitmachen möchte?"
-    answer: "Das kommt vor und ist kein Grund, auf Unterstützung zu verzichten. In diesem Fall kann ein Gespräch nur für Sie sinnvoll sein, in dem Sie zunächst allein Klarheit über Ihre Situation gewinnen. Häufig verändert sich dadurch etwas, sodass später doch ein gemeinsames Gespräch möglich wird. In manchen Fällen bleibt es auch bei diesem einen Weg, und das ist ebenfalls ein gutes Ergebnis."
-  - question: "Ist Mediation auch sinnvoll, wenn ich nur für mich selbst Klarheit gewinnen möchte?"
-    answer: "Ja. Nicht jede Situation erfordert von Anfang an ein gemeinsames Gespräch mit allen Beteiligten. Manchmal hilft es zunächst, die eigene Sicht auf eine Situation zu ordnen, bevor weitere Schritte folgen. Dafür steht das Angebot Ein Gespräch nur für sich selbst zur Verfügung."
-  - question: "Ist eine in der Mediation getroffene Vereinbarung rechtlich bindend?"
-    answer: "Eine Vereinbarung aus der Mediation kann schriftlich festgehalten werden, ich biete dabei aber keine Rechtsberatung an. Wenn eine rechtlich bindende oder notariell abgesicherte Lösung gewünscht ist, sollten Sie zusätzlich eine Rechtsanwältin, einen Rechtsanwalt oder eine Notarin beziehungsweise einen Notar hinzuziehen. Mediation ersetzt keine rechtliche Beratung, kann aber eine gute Grundlage für eine spätere rechtliche Absicherung schaffen."
-  - question: "Welche Ausbildung haben Sie als Mediator?"
-    answer: "Ich bin ausgebildeter Mediator am INKOVEMA Institut Leipzig. Mehr über meinen Werdegang und meine Erfahrung erfahren Sie auf der Seite Über mich."
+  - question: "Wie beginnt es?"
+    answer: "Mit einem kostenfreien Orientierungsgespräch. Es dauert 30 Minuten am Telefon oder 45 Minuten per Zoom. Sie erzählen, was bei Ihnen ansteht, und wir schauen gemeinsam, was jetzt hilfreich sein könnte. Danach entscheiden Sie, ob und wie es weitergeht."
+  - question: "Ist das Orientierungsgespräch wirklich kostenfrei?"
+    answer: "Ja. Es kostet nichts und verpflichtet zu nichts. Manchmal reicht dieses Gespräch schon aus. Manchmal zeigt sich, dass ein Gespräch nur für Sie, ein begleitetes Gespräch oder eine Mediation passt."
+  - question: "Kann ich auch allein kommen?"
+    answer: "Ja. Sie müssen niemanden mitbringen und niemanden vorher überzeugen. Oft ist es gut, zuerst allein über die eigene Situation zu sprechen. Manchmal wird danach ein gemeinsames Gespräch möglich. Manchmal bleibt es beim Gespräch nur für Sie, und auch das kann ein gutes Ergebnis sein."
+  - question: "Wie läuft eine Mediation ab?"
+    answer: "Alle Beteiligten treffen sich, meist persönlich in Dresden, auf Wunsch auch online. Eine Sitzung dauert etwa 90 Minuten, oft sind mehrere Sitzungen sinnvoll. Ich gebe keine Lösung vor. Am Ende steht, wenn es gelingt, eine Vereinbarung, die alle mittragen können."
+  - question: "Was kostet die Begleitung?"
+    answer: "Eine Mediationssitzung von 90 Minuten kostet 160 Euro. Ein Gespräch mit einer einzelnen Person kostet 120 Euro, eine systemische Beratung mit mehreren Beteiligten 180 Euro pro Sitzung. Bei sehr aufwendigen Fällen, etwa bei mehr als vier Beteiligten, kann ein Zuschlag von 20 Prozent anfallen. Fahrtkosten kommen gesondert hinzu. Im Aufbau meiner Praxis begleite ich 2026 und 2027 einige Familien und Nachbarschaften in Dresden kostenfrei."
+  - question: "Bleibt das Gespräch vertraulich?"
+    answer: "Ja. Was Sie mir erzählen, bleibt bei mir. Ich gebe nichts an Dritte weiter, auch nicht an andere Beteiligte, wenn Sie nicht zustimmen. Sie entscheiden, was aufgeschrieben wird. Ihre Daten nutze ich nur für unsere Zusammenarbeit."
+  - question: "Ist eine Vereinbarung aus der Mediation rechtlich bindend?"
+    answer: "Eine Vereinbarung kann schriftlich festgehalten werden. Rechtsberatung biete ich aber nicht an. Wenn Sie eine rechtlich bindende oder notarielle Absicherung möchten, ziehen Sie bitte eine Anwältin, einen Anwalt oder ein Notariat hinzu. Die Vereinbarung ist dafür eine gute Grundlage."
+  - question: "Welche Ausbildung haben Sie?"
+    answer: "Ich bin zertifizierter Mediator, ausgebildet am INKOVEMA Institut in Leipzig. Mehr über meinen Weg steht auf der Seite Über mich."
 ---
 
-Vor einer Mediation, einem Konflikt-Coaching oder einer systemischen Beratung tauchen oft ähnliche Fragen auf. Die folgenden Antworten sollen Ihnen helfen, sich vorab ein klares Bild zu machen.
+Vor dem ersten Gespräch tauchen oft ähnliche Fragen auf. Hier finden Sie kurze Antworten.
 
-## Wie läuft eine Mediation bei Ihnen ab?
+## Wie beginnt es?
 
-In einem ersten, kostenlosen Gespräch klären wir gemeinsam, worum es geht und ob eine Mediation der richtige Weg ist. Findet ein Termin statt, treffen sich alle Beteiligten in der Regel persönlich in Dresden, ein Gespräch ist auf Wunsch aber auch online möglich. Eine Mediationssitzung dauert etwa 90 Minuten, je nach Situation sind mehrere Sitzungen sinnvoll. Am Ende steht keine vorgegebene Lösung, sondern eine Vereinbarung, die alle Beteiligten mittragen können.
+Mit einem kostenfreien Orientierungsgespräch. Es dauert 30 Minuten am Telefon oder 45 Minuten per Zoom. Sie erzählen, was bei Ihnen ansteht, und wir schauen gemeinsam, was jetzt hilfreich sein könnte. Danach entscheiden Sie, ob und wie es weitergeht.
 
-## Ist das Erstgespräch wirklich kostenlos?
+## Ist das Orientierungsgespräch wirklich kostenfrei?
 
-Ja. Das erste Gespräch dauert etwa 30 bis 45 Minuten und ist kostenlos. Es dient dazu, Ihre Situation kennenzulernen und gemeinsam einzuschätzen, ob Mediation, Konflikt-Coaching oder systemische Beratung zu Ihrer Situation passt. Eine inhaltliche Beratung findet in diesem ersten Gespräch noch nicht statt.
+Ja. Es kostet nichts und verpflichtet zu nichts. Manchmal reicht dieses Gespräch schon aus. Manchmal zeigt sich, dass ein Gespräch nur für Sie, ein begleitetes Gespräch oder eine Mediation passt.
 
-## Was kostet eine Mediation?
+## Kann ich auch allein kommen?
 
-Eine Mediationssitzung von 90 Minuten kostet 160 Euro. Für ein Konflikt-Coaching mit einer einzelnen Person liegt der Preis bei 120 Euro pro Sitzung, für eine systemische Beratung mit mehreren Beteiligten bei 180 Euro pro Sitzung. Bei besonders aufwändigen Fällen, etwa bei stark eskalierten Konflikten oder bei mehr als vier Beteiligten, kann ein Komplexitätszuschlag von 20 Prozent anfallen. Fahrtkosten werden gesondert berechnet.
+Ja. Sie müssen niemanden mitbringen und niemanden vorher überzeugen. Oft ist es gut, zuerst allein über die eigene Situation zu sprechen, zum Beispiel in einem [Gespräch nur für sich selbst]({{< relref "/angebote/ein-gespraech-fuer-sich-selbst/" >}}). Manchmal wird danach ein gemeinsames Gespräch möglich. Manchmal bleibt es beim Gespräch nur für Sie, und auch das kann ein gutes Ergebnis sein.
 
-## Ist das Gespräch vertraulich?
+## Wie läuft eine Mediation ab?
 
-Ja, alles, was in einem Gespräch besprochen wird, bleibt vertraulich und unterliegt dem Datenschutz. Ich gebe keine Inhalte an Dritte weiter, auch nicht an andere Beteiligte ohne Ihr Einverständnis. Sie entscheiden selbst, was besprochen und was schriftlich festgehalten wird. Persönliche Daten werden ausschließlich für die Durchführung der Mediation verwendet und nicht für andere Zwecke genutzt.
+Alle Beteiligten treffen sich, meist persönlich in Dresden, auf Wunsch auch online. Eine Sitzung dauert etwa 90 Minuten, oft sind mehrere Sitzungen sinnvoll. Ich gebe keine Lösung vor. Am Ende steht, wenn es gelingt, eine Vereinbarung, die alle mittragen können.
 
-## Was, wenn die andere Seite nicht mitmachen möchte?
+## Was kostet die Begleitung?
 
-Das kommt vor und ist kein Grund, auf Unterstützung zu verzichten. In diesem Fall kann [Ein Gespräch nur für sich selbst]({{< relref "/angebote/ein-gespraech-fuer-sich-selbst/" >}}) sinnvoll sein, in dem Sie zunächst allein Klarheit über Ihre Situation gewinnen. Häufig verändert sich dadurch etwas, sodass später doch ein gemeinsames Gespräch möglich wird. In manchen Fällen bleibt es auch bei diesem einen Weg, und das ist ebenfalls ein gutes Ergebnis.
+Eine Mediationssitzung von 90 Minuten kostet 160 Euro. Ein Gespräch mit einer einzelnen Person kostet 120 Euro, eine systemische Beratung mit mehreren Beteiligten 180 Euro pro Sitzung. Bei sehr aufwendigen Fällen, etwa bei mehr als vier Beteiligten, kann ein Zuschlag von 20 Prozent anfallen. Fahrtkosten kommen gesondert hinzu.
 
-## Ist Mediation auch sinnvoll, wenn ich nur für mich selbst Klarheit gewinnen möchte?
+Im Aufbau meiner Praxis begleite ich 2026 und 2027 einige Familien und Nachbarschaften in Dresden kostenfrei. [Mehr zum Praxisaufbau](https://mediator.sweti.de/angebote/praxisaufbau-mediation-dresden/)
 
-Ja. Nicht jede Situation erfordert von Anfang an ein gemeinsames Gespräch mit allen Beteiligten. Manchmal hilft es zunächst, die eigene Sicht auf eine Situation zu ordnen, bevor weitere Schritte folgen. Dafür steht das Angebot [Ein Gespräch nur für sich selbst]({{< relref "/angebote/ein-gespraech-fuer-sich-selbst/" >}}) zur Verfügung.
+## Bleibt das Gespräch vertraulich?
 
-## Ist eine in der Mediation getroffene Vereinbarung rechtlich bindend?
+Ja. Was Sie mir erzählen, bleibt bei mir. Ich gebe nichts an Dritte weiter, auch nicht an andere Beteiligte, wenn Sie nicht zustimmen. Sie entscheiden, was aufgeschrieben wird. Ihre Daten nutze ich nur für unsere Zusammenarbeit.
 
-Eine Vereinbarung aus der Mediation kann schriftlich festgehalten werden, ich biete dabei aber keine Rechtsberatung an. Wenn eine rechtlich bindende oder notariell abgesicherte Lösung gewünscht ist, sollten Sie zusätzlich eine Rechtsanwältin, einen Rechtsanwalt oder eine Notarin beziehungsweise einen Notar hinzuziehen. Mediation ersetzt keine rechtliche Beratung, kann aber eine gute Grundlage für eine spätere rechtliche Absicherung schaffen.
+## Ist eine Vereinbarung aus der Mediation rechtlich bindend?
 
-## Welche Ausbildung haben Sie als Mediator?
+Eine Vereinbarung kann schriftlich festgehalten werden. Rechtsberatung biete ich aber nicht an. Wenn Sie eine rechtlich bindende oder notarielle Absicherung möchten, ziehen Sie bitte eine Anwältin, einen Anwalt oder ein Notariat hinzu. Die Vereinbarung ist dafür eine gute Grundlage.
 
-Ich bin ausgebildeter Mediator am INKOVEMA Institut Leipzig. Mehr über meinen Werdegang und meine Erfahrung erfahren Sie auf der Seite [Über mich]({{< relref "ueber-mich" >}}).
+## Welche Ausbildung haben Sie?
+
+Ich bin zertifizierter Mediator, ausgebildet am INKOVEMA Institut in Leipzig. Mehr über meinen Weg steht auf der Seite [Über mich]({{< relref "ueber-mich" >}}).
 
 {{< cta
   url="https://calendly.com/mediator-sweti"
-  text="Kostenloses Erstgespräch vereinbaren"
+  text="Orientierungsgespräch vereinbaren"
   accent="blue"
 >}}
 
-Wenn Ihre Frage hier nicht beantwortet wurde, klären wir sie gern gemeinsam in einem ersten, unverbindlichen Gespräch.
+Ihre Frage war nicht dabei? Dann stellen Sie sie mir gern im Orientierungsgespräch.
 
 {{< /cta >}}

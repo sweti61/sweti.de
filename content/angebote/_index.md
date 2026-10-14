@@ -1,10 +1,14 @@
 ---
 title: "Wege zurück ins Gespräch"
-description: "Angebote für Mediation und Konfliktklärung in Familie, Beziehung, Erbe und Betriebsübergabe. Neue Wege, um wieder miteinander sprechen zu können."
+description: "Konfliktbegleitung in Dresden bei Pflege, Erbe, Hofübergabe, in der Familie und mit Nachbarn. Der Einstieg ist ein kostenfreies Orientierungsgespräch."
 ---
 
-Manchmal gerät ein Gespräch ins Stocken, das eigentlich wichtig wäre. In der Familie, in der Partnerschaft, bei einem Erbe oder bei der Übergabe eines Hofs oder Betriebs. Oft hilft es dann, nicht allein weiterzudenken, sondern mit jemandem zu sprechen, der nicht mitten in der eigenen Situation steckt.
+Manchmal stockt ein Gespräch, das eigentlich wichtig wäre. In der Familie, bei Pflege oder einem Erbe, bei der Übergabe eines Hofs oder mit den Nachbarn.
 
-Hier finden Sie einige Angebote für unterschiedliche Situationen. Manche passen zu einem konkreten Konflikt, etwa bei Pflege, Erbe oder einer Betriebsübergabe. Andere sind eher ein erster Schritt, wenn Sie noch nicht wissen, wo Sie anfangen sollen, oder wenn Sie zunächst allein sprechen möchten.
+Dann kann es helfen, mit jemandem zu sprechen, der nicht mittendrin steckt.
 
-Sie müssen nicht sicher sein, welches Angebot genau passt. Ein kostenfreies erstes Gespräch hilft dabei, das gemeinsam herauszufinden.
+Manche Angebote passen zu einem konkreten Streit. Andere sind ein erster Schritt, wenn Sie erst einmal allein sprechen möchten.
+
+Sie müssen noch nicht wissen, welches Angebot passt. Das finden wir gemeinsam in einem kostenfreien Orientierungsgespräch heraus.
+
+[Orientierungsgespräch vereinbaren](https://calendly.com/mediator-sweti)
