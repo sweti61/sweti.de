@@ -13,7 +13,7 @@ enableRobotsTXT = true
   googleMapsApiKey = "AIzaSyB-ExsHpwFOby3DWnnHx_0dE-V-u3M-HOE"
   defaultSocialImage = "images/og-default.jpg"
   calendlyURL = "https://calendly.com/mediator-sweti"
-  gtmID = "	GTM-TLTC62FD"
+  gtmID = "GTM-TLTC62FD"
 
 [[menu.main]]
   name = "Angebote"
