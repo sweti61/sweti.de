@@ -1,3 +1,4 @@
+{{- if hugo.IsProduction }}
 {{- with site.Params.gtmID }}
 <!-- Google Tag Manager -->
 <script>
@@ -13,4 +14,5 @@
 })(window,document,'script','dataLayer',{{ . | jsonify | safeJS }});
 </script>
 <!-- End Google Tag Manager -->
+{{- end }}
 {{- end }}

@@ -1,3 +1,4 @@
+{{- if hugo.IsProduction }}
 {{- with site.Params.gtmID }}
 <!-- Google Tag Manager (noscript) -->
 <noscript>
@@ -9,4 +10,5 @@
   </iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+{{- end }}
 {{- end }}
