@@ -1,21 +1,21 @@
 ---
-title: "Kontakt: Mediator und Konflikt-Coach in Dresden"
-description: "Vereinbaren Sie ein unverbindliches Erstgespräch: telefonisch, per E-Mail oder direkt über Calendly."
+title: "Kontakt: Konfliktbegleitung in Dresden"
+description: "Vereinbaren Sie ein kostenfreies Orientierungsgespräch: telefonisch, per Zoom oder per E-Mail."
 slug: "/kontakt/"
 date: 2026-08-25
+lastmod: 2026-10-14
 ---
-*Veränderung beginnt mit einem Gespräch.*
+*Sie müssen noch nicht wissen, wie es weitergeht.*
 
-
-Ob Sie bereits wissen, dass eine Mediation oder ein Konflikt-Coaching zu Ihrer Situation passt, oder das zunächst gemeinsam klären möchten: Ein erstes Gespräch ist unverbindlich und dauert etwa eine halbe Stunde. Sie erreichen mich telefonisch, per E-Mail oder direkt über den Online-Kalender. Alle drei Wege führen zuverlässig zu mir.
+Am Anfang steht ein kostenfreies Orientierungsgespräch. Es dauert 30 Minuten am Telefon oder 45 Minuten per Zoom und verpflichtet zu nichts. Sie können den Termin online buchen, mich anrufen oder mir schreiben.
 
 {{< cta
   url="https://calendly.com/mediator-sweti"
-  text="Termin online buchen"
+  text="Orientierungsgespräch vereinbaren"
   accent="blue"
 >}}
 
-Der schnellste Weg zu einem ersten Gespräch: Wählen Sie im Kalender einen freien Termin, der zu Ihnen passt.
+Wählen Sie im Kalender einen freien Termin, der zu Ihnen passt.
 
 {{< /cta >}}
 
@@ -28,13 +28,12 @@ Bünaustraße 52 · 01159 Dresden
 [mediator@sweti.de](mailto:mediator@sweti.de)  
 [0163 803 5634](tel:+491638035634)
 
-Telefonisch erreichbar bin ich werktags von 8 bis 17 Uhr.
+Telefonisch erreichen Sie mich werktags von 8 bis 17 Uhr.
 
-Tätigkeitsgebiet: Dresden und Sachsen, Online-Verfahren sind ebenso möglich.
+Ich arbeite in Dresden und Sachsen. Gespräche sind auch online möglich.
 
 {{< map q="Bünaustr. 52, 01159 Dresden" >}}
 
 ## Vertraulichkeit
 
-Was Sie mir in einer ersten Nachricht schreiben, wird vertraulich behandelt und ausschließlich zur Bearbeitung Ihrer Anfrage genutzt. Näheres dazu finden Sie in der [Datenschutzerklärung](/datenschutz/).
-
+Was Sie mir schreiben, behandle ich vertraulich und nutze es nur für Ihre Anfrage. Mehr dazu steht in der [Datenschutzerklärung](/datenschutz/).
