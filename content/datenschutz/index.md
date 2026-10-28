@@ -18,7 +18,7 @@ Dr. Swetoslaw Beltschew
 Bünaustraße 52  
 01159 Dresden  
 E-Mail: mediator@sweti.de  
-Telefon: +49 163 803 5634
+Telefon: [+ 49 163 803 5634](tel:+491638035634)   
 
 Einen Datenschutzbeauftragten habe ich nicht bestellt, weil dafür keine gesetzliche Pflicht besteht. Fragen zum Datenschutz richten Sie bitte direkt an mich.
 
